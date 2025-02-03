@@ -1,0 +1,31 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "\"this is a react project\"",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "vivek",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.3",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "tailwindcss": "^4.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "browserList": [
+    "last 2 version"
+  ]
+}
