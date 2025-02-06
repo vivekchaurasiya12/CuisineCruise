@@ -8,6 +8,7 @@ let resList = [
       "name": "KFC",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/69e69c55-d2bb-4207-8310-131fc693f78a_26719.JPG",
       "areaName": "Connaught Place",
+      "promoted": true,
       "costForTwo": "₹400 for two",
       "cuisines": [
         "Burgers",
@@ -18,285 +19,513 @@ let resList = [
       "sla": {
         "deliveryTime": 22,
       },
-      
-      "card": {
-        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-        "title": "Recommended",
-        "itemCards": [
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "63346237",
-                "name": "Double Chicken Roll",
-                "category": "New Chicken Rolls",
-                "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce [1 unit of Double Chicken Roll, Serves 1]",
-                "imageId": "ebcda29a62123bbf8bb8a33bbe2ab847",
-                "inStock": 1,
-                "price": 16857,
+      "groupCards" : [  
+         {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Burgers",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762987",
+                    "name": "Spicy Zinger Burger and Chicken Meal",
+                    "category": "Burgers",
+                    "description": "New Caribbean Spicy Zinger Burger with 1 Pc Hot & Crispy and Pepsi PET 475ml at a deal price",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/16/97be0ab8-8b40-41fc-926d-5a0da1feda91_b258475e-5a12-46d1-a5a5-618b3c49e62e.jpg",
+                    "inStock": 1,
+                    "price": 37905,
+                  },
+                 
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762986",
+                    "name": "Spicy Zinger Burger",
+                    "category": "Burgers",
+                    "description": "New Caribbean Spicy Zinger Burger with Spicy Bun & Spicy chilli sauce with Zinger Fillet, Lettuce, Onion and Tomatoes",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/13/c399fbf4-8312-48c0-b661-fa2e052845cf_c96b26a6-55c6-43ff-8231-03e6c10cc4b6.jpg",
+                    "inStock": 1,
+                    "price": 21905,
+                 
+                 
+                 
+                  }
+                 
               
+                }
               },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "113951256",
-                "name": "Double Chicken Roll Meal for 1",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 24 with a Double Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [1 unit of Double Chicken Roll, Serves 1]",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/17/00af9641-700d-462f-890f-47e358b63bfb_68cecb16-fd2a-4d7d-9392-b5f83d72eaaf.jpg",
-                "inStock": 1,
-                "price": 37905,
-              } ,
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "113951262",
-                "name": "Classic Chicken Roll Meal for 2",
-                "category": "New Chicken Rolls",
-                "description": "2 units of The classic KFC Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [2 units of Classic Chicken Roll, Serves 2]",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/183cb04b-d716-443a-91d9-27f26c566adc_e3c2c7c7-b9a8-4881-a4b5-05532b10ec0a.jpg",
-                "inStock": 1,
-                "price": 47905,
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762983",
+                    "name": "Spicy Zinger Burger and Popcorn Meal",
+                    "category": "Burgers",
+                    "description": "Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/9/37fde1f3-777c-48be-8d96-6c5b5d5de72a_14bce274-6cbc-432f-9f98-75000feb041b.jpg",
+                    "inStock": 1,
+                    "price": 43905,
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
               },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "145446773",
-                "name": "Thai Spicy Chicken Roll",
-                "category": "New Chicken Rolls",
-                "description": "Fresh burst of Thai flavours and sauces in a flaky paratha, chicken strips and vegetables",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/fa48d82c-2322-4ba7-b419-27e79ca1b217_0800d19e-02b8-45e2-ad64-21ee0d877821.jpg",
-                "inStock": 1,
-                "price": 11900,
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "146207591",
+                    "name": "Mexican Zinger Pro Pepsi Bottle Combo",
+                    "category": "Burgers",
+                    "description": "Get Pepsi 330ml Reusable Bottle with Mexican Zinger Pro Burger",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/12/42aa6894-2620-4ef4-b3ca-dc512de9de42_6c04d385-7f57-45ad-a995-657b7ef8d4c8.jpg",
+                    "inStock": 1,
+                    "price": 31900,
+                  },
+                }
               },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "145446772",
-                "name": "Indian Tandoori Chicken Roll",
-                "category": "New Chicken Rolls",
-                "description": "Flavorful roll made with flaky lachha paratha, perfectly fried chicken strips in rich and creamy tandoori sauce",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/4c966f38-c191-4d0e-a54c-c70b832e4de1_69ee13c1-f267-4385-ab98-6efbc811de33.jpg",
-                "inStock": 1,
-                "price": 11900,
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137220682",
+                    "name": "Classic Zinger Mojito Combo",
+                    "category": "Burgers",
+                    "description": "Get All New Mojito Reusable Bottle with Classic Chicken Zinger Burger",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/18/7d614e39-2124-48f1-b1bf-36b74c880ac6_6898330c-b14e-489b-b3b9-985ab4b7b239.jpg",
+                    "inStock": 1,
+                    "price": 29723,
+                   },
+                  
+                }
               },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "145446771",
-                "name": "Indian Spicy Veg Roll",
-                "category": "New Chicken Rolls",
-                "description": "Veg special spicy indian sauce and veggie roll",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/10/523afb1b-9bc9-4a4f-9c6e-1dda60b7da21_61c763cc-a9ca-4c13-ba15-3fe28d631b91.jpg",
-                "inStock": 1,
-                "isVeg": 1,
-                "price": 11900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821771",
-                "name": "Korean & Thai Roll Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Rs. 114 Off on Korean Tangy Roll & Thai Spicy Roll, Large Popcorn, Large Fries & Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/4c4e85fc-9a85-41b7-a9d6-644b92c144da_a8391eb4-db4c-41cc-b7d5-02114443fc5c.jpg",
-                "inStock": 1,
-                "price": 54900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821770",
-                "name": "Indian Tandoori Roll Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 75 on Indian Tandoori Roll, Classic Zinger Burger, Medium Fries & Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5d439a47-5bce-4010-b1b1-bc2f8344367b_8ed35bd6-33f3-419e-a5ee-62efb83a6a45.jpg",
-                "inStock": 1,
-                "price": 39900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821769",
-                "name": "Korean Tangy Roll & Popcorn Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 56 with Korean Tangy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/d980ce4c-4c08-4522-8467-3370e1e3a54f_c0843f3c-59f5-4037-9e65-0193e7ff16a7.jpg",
-                "inStock": 1,
-                "price": 29900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821768",
-                "name": "Thai Spicy Roll & Zinger Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 75 with Thai Spicy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/e0406e96-cf1e-4b8e-a5ac-b4b146275c79_783e1b21-34c8-49dc-8b65-d1d0e9516028.jpg",
-                "inStock": 1,
-                "price": 39900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821767",
-                "name": "American Roll & Popcorn Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 56 with American Nashville Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5c2e6a8e-c457-4206-ba9c-671bed55def8_7a5456db-4ab5-4f45-be97-40a6a366de83.jpg",
-                "inStock": 1,
-                "price": 29900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821766",
-                "name": "Thai Spicy Roll & Popcorn Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 56 with Thai Spicy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/2b00f8ae-9a6c-48f3-adb9-e225523fde77_3b233f9f-ebed-490d-bcab-76d908b3c120.jpg",
-                "inStock": 1,
-                "price": 29900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "120386524",
-                "name": "Classic Chicken Roll",
-                "category": "New Chicken Rolls",
-                "description": "Street style roll with single chicken strip, onions and two spicy sauce [1 unit of Classic Chicken Roll]",
-                "imageId": "ebd8e706049e4fd5ca79ecf708f8ecba",
-                "inStock": 1,
-                "price": 11905,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "147821765",
-                "name": "Korean Tangy Roll & Zinger Chicken Meal",
-                "category": "New Chicken Rolls",
-                "description": "Save Rs. 75 with Korean Tangy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/0de51acd-e5e9-49fc-b792-8f0d858e5d2b_7be9cfd1-b442-4f02-bd98-feb37de91305.jpg",
-                "inStock": 1,
-                "price": 39900,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "137762815",
-                "name": "Spicy Zinger Burger and Chicken Meal",
-                "category": "Burgers",
-                "description": "New Caribbean Spicy Zinger Burger with 1 Pc Hot & Crispy and Pepsi PET 475ml at a deal price",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/16/97be0ab8-8b40-41fc-926d-5a0da1feda91_b258475e-5a12-46d1-a5a5-618b3c49e62e.jpg",
-                "inStock": 1,
-                "price": 37905,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "137762814",
-                "name": "Spicy Zinger Burger",
-                "category": "Burgers",
-                "description": "New Caribbean Spicy Zinger Burger with Spicy Bun & Spicy chilli sauce with Zinger Fillet, Lettuce, Onion and Tomatoes",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/13/c399fbf4-8312-48c0-b661-fa2e052845cf_c96b26a6-55c6-43ff-8231-03e6c10cc4b6.jpg",
-                "inStock": 1,
-                "price": 21905,
-                       },
-               }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "137762813",
-                "name": "Spicy Zinger Burger and Popcorn Meal",
-                "category": "Burgers",
-                "description": "Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/9/37fde1f3-777c-48be-8d96-6c5b5d5de72a_14bce274-6cbc-432f-9f98-75000feb041b.jpg",
-                "inStock": 1,
-                "price": 43905,
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "145536747",
-                "name": "Mexican Zinger Pro Pepsi Bottle Combo",
-                "category": "Burgers",
-                "description": "Get Pepsi 330ml Reusable Bottle with Mexican Zinger Pro Burger",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/27/b6406471-3fb9-4502-812c-688bb8c71157_cd0c1da5-6324-4dfc-9e11-20c2d9265ba8.jpg",
-                "inStock": 1,
-                "price": 31900,
-               
-              },
-            }
-          },
-          {
-            "card": {
-              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-              "info": {
-                "id": "137762812",
-                "name": "Paneer Zinger Burger",
-                "category": "Burgers",
-                "description": "It's Back! Crunchy Indian Paneer Patty Burger with tangy sauce and Veggies",
-                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/56c5c073-4ac4-4c43-990e-16a558cf3877_87868b65-5a9c-4dd4-8f2e-e47ad6ee57d2.jpg",
-                "inStock": 1,
-                "isVeg": 1,
-                "price": 20857,
-                
-              },
-            }
+            ],
+           
+          
           }
-        ],
+        
+      },
+      {
+     
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "New Chicken Rolls",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "63346357",
+                    "name": "Double Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce [1 unit of Double Chicken Roll, Serves 1]",
+                    "imageId": "ebcda29a62123bbf8bb8a33bbe2ab847",
+                    "inStock": 1,
+                    "price": 16857,
+                    
+                  }
+              },
+            },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "113952092",
+                    "name": "Double Chicken Roll Meal for 1",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 24 with a Double Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [1 unit of Double Chicken Roll, Serves 1]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/17/00af9641-700d-462f-890f-47e358b63bfb_68cecb16-fd2a-4d7d-9392-b5f83d72eaaf.jpg",
+                    "inStock": 1,
+                    "price": 37905,
+                  }
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "113952097",
+                    "name": "Classic Chicken Roll Meal for 2",
+                    "category": "New Chicken Rolls",
+                    "description": "2 units of The classic KFC Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [2 units of Classic Chicken Roll, Serves 2]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/183cb04b-d716-443a-91d9-27f26c566adc_e3c2c7c7-b9a8-4881-a4b5-05532b10ec0a.jpg",
+                    "inStock": 1,
+                    "price": 47905,
+              
+                  },
+                 
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446883",
+                    "name": "Thai Spicy Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Fresh burst of Thai flavours and sauces in a flaky paratha, chicken strips and vegetables",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/fa48d82c-2322-4ba7-b419-27e79ca1b217_0800d19e-02b8-45e2-ad64-21ee0d877821.jpg",
+                    "inStock": 1,
+                    "price": 13900,
+                   
+               
+                  
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446882",
+                    "name": "Indian Tandoori Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Flavorful roll made with flaky lachha paratha, perfectly fried chicken strips in rich and creamy tandoori sauce",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/4c966f38-c191-4d0e-a54c-c70b832e4de1_69ee13c1-f267-4385-ab98-6efbc811de33.jpg",
+                    "inStock": 1,
+                    "price": 13900,
+                   
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446884",
+                    "name": "Korean Tangy Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Delicious new roll featuring tangy Korean kimchi, vegetables and crunchy chicken strips",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/377309f8-992e-4fea-a461-1ab5d7218b5e_b814bc78-3961-4332-96df-8aefb9ba86e4.jpg",
+                    "inStock": 1,
+                    "price": 13900,   
+                  },
+                 
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821949",
+                    "name": "Korean & Thai Roll Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Rs. 114 Off on Korean Tangy Roll & Thai Spicy Roll, Large Popcorn, Large Fries & Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/12/76d3e89f-2eec-4a04-8c0d-bd82bf153d78_6b7961a1-5a28-482a-a58d-c8e3c03fe112.jpg",
+                    "inStock": 1,
+                    "price": 54900,
+                       
+                  },
+               
+                
+                }
+              },
+           
+             
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "ebcda29a62123bbf8bb8a33bbe2ab847",
+            "categoryId": "39933435"
+          }
+        },{
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Recommended",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "63346237",
+                    "name": "Double Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce [1 unit of Double Chicken Roll, Serves 1]",
+                    "imageId": "ebcda29a62123bbf8bb8a33bbe2ab847",
+                    "inStock": 1,
+                    "price": 16857,
+                  
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "113951256",
+                    "name": "Double Chicken Roll Meal for 1",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 24 with a Double Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [1 unit of Double Chicken Roll, Serves 1]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/17/00af9641-700d-462f-890f-47e358b63bfb_68cecb16-fd2a-4d7d-9392-b5f83d72eaaf.jpg",
+                    "inStock": 1,
+                    "price": 37905,
+                  } ,
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "113951262",
+                    "name": "Classic Chicken Roll Meal for 2",
+                    "category": "New Chicken Rolls",
+                    "description": "2 units of The classic KFC Chicken Roll with servings of 1 Large Fries, 2 delish dips and 1 Pepsi PET 475ml [2 units of Classic Chicken Roll, Serves 2]",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/10/183cb04b-d716-443a-91d9-27f26c566adc_e3c2c7c7-b9a8-4881-a4b5-05532b10ec0a.jpg",
+                    "inStock": 1,
+                    "price": 47905,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446773",
+                    "name": "Thai Spicy Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Fresh burst of Thai flavours and sauces in a flaky paratha, chicken strips and vegetables",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/fa48d82c-2322-4ba7-b419-27e79ca1b217_0800d19e-02b8-45e2-ad64-21ee0d877821.jpg",
+                    "inStock": 1,
+                    "price": 11900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446772",
+                    "name": "Indian Tandoori Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Flavorful roll made with flaky lachha paratha, perfectly fried chicken strips in rich and creamy tandoori sauce",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/4c966f38-c191-4d0e-a54c-c70b832e4de1_69ee13c1-f267-4385-ab98-6efbc811de33.jpg",
+                    "inStock": 1,
+                    "price": 11900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145446771",
+                    "name": "Indian Spicy Veg Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Veg special spicy indian sauce and veggie roll",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/10/523afb1b-9bc9-4a4f-9c6e-1dda60b7da21_61c763cc-a9ca-4c13-ba15-3fe28d631b91.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 11900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821771",
+                    "name": "Korean & Thai Roll Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Rs. 114 Off on Korean Tangy Roll & Thai Spicy Roll, Large Popcorn, Large Fries & Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/4c4e85fc-9a85-41b7-a9d6-644b92c144da_a8391eb4-db4c-41cc-b7d5-02114443fc5c.jpg",
+                    "inStock": 1,
+                    "price": 54900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821770",
+                    "name": "Indian Tandoori Roll Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 75 on Indian Tandoori Roll, Classic Zinger Burger, Medium Fries & Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5d439a47-5bce-4010-b1b1-bc2f8344367b_8ed35bd6-33f3-419e-a5ee-62efb83a6a45.jpg",
+                    "inStock": 1,
+                    "price": 39900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821769",
+                    "name": "Korean Tangy Roll & Popcorn Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 56 with Korean Tangy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/d980ce4c-4c08-4522-8467-3370e1e3a54f_c0843f3c-59f5-4037-9e65-0193e7ff16a7.jpg",
+                    "inStock": 1,
+                    "price": 29900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821768",
+                    "name": "Thai Spicy Roll & Zinger Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 75 with Thai Spicy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/e0406e96-cf1e-4b8e-a5ac-b4b146275c79_783e1b21-34c8-49dc-8b65-d1d0e9516028.jpg",
+                    "inStock": 1,
+                    "price": 39900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821767",
+                    "name": "American Roll & Popcorn Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 56 with American Nashville Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/5c2e6a8e-c457-4206-ba9c-671bed55def8_7a5456db-4ab5-4f45-be97-40a6a366de83.jpg",
+                    "inStock": 1,
+                    "price": 29900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821766",
+                    "name": "Thai Spicy Roll & Popcorn Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 56 with Thai Spicy Chicken Roll, Medium Popcorn and Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/2b00f8ae-9a6c-48f3-adb9-e225523fde77_3b233f9f-ebed-490d-bcab-76d908b3c120.jpg",
+                    "inStock": 1,
+                    "price": 29900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "120386524",
+                    "name": "Classic Chicken Roll",
+                    "category": "New Chicken Rolls",
+                    "description": "Street style roll with single chicken strip, onions and two spicy sauce [1 unit of Classic Chicken Roll]",
+                    "imageId": "ebd8e706049e4fd5ca79ecf708f8ecba",
+                    "inStock": 1,
+                    "price": 11905,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "147821765",
+                    "name": "Korean Tangy Roll & Zinger Chicken Meal",
+                    "category": "New Chicken Rolls",
+                    "description": "Save Rs. 75 with Korean Tangy Roll with Classic Zinger Burger, Medium Fries and Pepsi PET 475ml",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/19/0de51acd-e5e9-49fc-b792-8f0d858e5d2b_7be9cfd1-b442-4f02-bd98-feb37de91305.jpg",
+                    "inStock": 1,
+                    "price": 39900,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762815",
+                    "name": "Spicy Zinger Burger and Chicken Meal",
+                    "category": "Burgers",
+                    "description": "New Caribbean Spicy Zinger Burger with 1 Pc Hot & Crispy and Pepsi PET 475ml at a deal price",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/16/97be0ab8-8b40-41fc-926d-5a0da1feda91_b258475e-5a12-46d1-a5a5-618b3c49e62e.jpg",
+                    "inStock": 1,
+                    "price": 37905,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762814",
+                    "name": "Spicy Zinger Burger",
+                    "category": "Burgers",
+                    "description": "New Caribbean Spicy Zinger Burger with Spicy Bun & Spicy chilli sauce with Zinger Fillet, Lettuce, Onion and Tomatoes",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/13/c399fbf4-8312-48c0-b661-fa2e052845cf_c96b26a6-55c6-43ff-8231-03e6c10cc4b6.jpg",
+                    "inStock": 1,
+                    "price": 21905,
+                           },
+                   }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762813",
+                    "name": "Spicy Zinger Burger and Popcorn Meal",
+                    "category": "Burgers",
+                    "description": "Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/9/37fde1f3-777c-48be-8d96-6c5b5d5de72a_14bce274-6cbc-432f-9f98-75000feb041b.jpg",
+                    "inStock": 1,
+                    "price": 43905,
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "145536747",
+                    "name": "Mexican Zinger Pro Pepsi Bottle Combo",
+                    "category": "Burgers",
+                    "description": "Get Pepsi 330ml Reusable Bottle with Mexican Zinger Pro Burger",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/27/b6406471-3fb9-4502-812c-688bb8c71157_cd0c1da5-6324-4dfc-9e11-20c2d9265ba8.jpg",
+                    "inStock": 1,
+                    "price": 31900,
+                   
+                  },
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "137762812",
+                    "name": "Paneer Zinger Burger",
+                    "category": "Burgers",
+                    "description": "It's Back! Crunchy Indian Paneer Patty Burger with tangy sauce and Veggies",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/4/56c5c073-4ac4-4c43-990e-16a558cf3877_87868b65-5a9c-4dd4-8f2e-e47ad6ee57d2.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 20857,
+                    
+                  },
+                }
+              }
+            ],
+          
+          }
+        }
       
-      }
+      ],
+     
    
     },
   },
@@ -305,7 +534,8 @@ let resList = [
       "id": "753312",
       "name": "The Belgian Waffle Co.",
       "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
-      "areaName": "CONNAUGHT CIRCUS",
+      "areaName": "Connaught Circus",
+      "promoted": false,
       "costForTwo": "₹200 for two",
       "cuisines": [
         "Waffle",
@@ -317,6 +547,265 @@ let resList = [
       "sla": {
         "deliveryTime": 30, 
       }, 
+      "groupCards":[ 
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Chocolatey Waffle",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616568",
+                "name": "Naked Nutella Waffle",
+                "category": "Waffles",
+                "description": "Classic Crispy Waffle + Premium European Chocolate Hazelnut Spread (Add Banana If You Like). A Universal Favourite!",
+                "imageId": "qtirovgc75c7a0dedfrt",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 19500,
+               },
+              
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616564",
+                "name": "Belgian Chocomelt Milk Waffle",
+                "category": "Waffles",
+                "description": "Your Favourite Belgian Chocolate Milk Waffle gets a new name! Classic Crispy Waffle + Melted Belgian Milk Choco. Simplicity At Its Best!",
+                "imageId": "uepao2q7bc4prdmqw6rx",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 16500,
+            
+                "badgesV2": {
+                  
+                },
+                "isBestseller": true,
+                "ratings": {
+                  "aggregatedRating": {
+                    "rating": "4.6",
+                    "ratingCount": "61 ratings",
+                    "ratingCountV2": "61"
+                  }
+                }
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616565",
+                "name": "Belgian Chocomelt Dark Waffle",
+                "category": "Waffles",
+                "description": "Your Favourite Belgian Chocolate Dark Waffle gets a new name! Classic Crispy Waffle + Melted Belgian Dark Choco. Darker Simplicity!",
+                "imageId": "hlrrukbpjasmhczocwb6",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 16500,
+              
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616569",
+                "name": "Kitkat Waffle",
+                "category": "Waffles",
+                "description": "Classic Crispy Waffle + Melted Belgian White Chocolate And KitKat Bits. For KitKat Lovers!",
+                "imageId": "eozerfua7ygpxho5wkao",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 18500,
+             
+               
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616566",
+                "name": "Butterscotch Crunch Waffle",
+                "category": "Waffles",
+                "description": "Classic Crispy Waffle + Crunchy Butterscotch Fudge. Go On Indulge!",
+                "imageId": "j7i5ie6zete7ez4oprvh",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 14500,
+          
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616567",
+                "name": "Coffee Mocha Waffle",
+                "category": "Waffles",
+                "description": "Classic Crispy Waffle + Melted Chocolate Infused With Coffee Crumbs. For Coffee Lovers!",
+                "imageId": "ii9usixjbv7djr6g8xui",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 15500,
+              
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          }
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "46173600"
+      },
+    },
+      {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+         "title": "Double Chocolatey Waffle",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616584",
+                "name": "Triple Chocomelt Waffle",
+                "category": "Waffles",
+                "description": "Your Favourite Triple Chocolate Waffle gets a new name! Signature Dark Choco Waffle + 3 Layers Of Melted White Choco, Belgian Milk Choco and Belgian Dark Choco. The most indulgent Choco Waffle Ever!",
+                "imageId": "onq8rhxujd0sx8kubaew",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 18500,
+               
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616585",
+                "name": "Almond Brownie Waffle",
+                "category": "Waffles",
+                "description": "The Best Of Two Worlds In A Single Bite - A Waffle And A Brownie. With Deliciously Rich Melted Chocolate and Almonds. Your Doorway To Heaven!",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/12/3e06d222-1987-4927-a6ef-a2d008d3c5ee_405f8986-db76-4be6-b2db-af8abf938043.png_compressed",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 19500,
+               
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616582",
+                "name": "Chocobite Overload Dark Waffle",
+                "category": "Waffles",
+                "description": "Your Favourite Chocolate Overload dark gets a new name! Signature Dark Choco Waffle + Melted Belgian Dark Choco. Double the chocolicious!",
+                "imageId": "ggnwmgrznp4jjzwwyhjx",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 17500,
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616581",
+                "name": "Chocobite Overload Milk Waffle",
+                "category": "Waffles",
+                "description": "Your Favourite Chocolate Overload milk gets a new name! Signature Dark Choco Waffle + Melted Belgian Milk Choco. Double the chocolicious!",
+                "imageId": "uoqt4nodzskmp1xldjbw",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 17500,
+          
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135616583",
+                "name": "Dark & White Fantasy Waffle",
+                "category": "Waffles",
+                "description": "Signature Dark Chocolate Waffle + Fondant Of Melted Belgian White Chocolate. A Match Made In Heaven!",
+                "imageId": "mtexxlclhen7gkljsems",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 17500,
+         
+            
+              },
+            
+            }
+          }
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "46173601"
+      },
+    }
+     ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -658,6 +1147,7 @@ let resList = [
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/97b012b7-23b7-4c25-8899-678f8051d8c9_16418.jpg",
   
       "areaName": "Connaught Place",
+      "promoted": true,
       "costForTwo": "₹350 for two",
       "cuisines": [
         "Salads",
@@ -670,6 +1160,385 @@ let resList = [
       "sla": {
         "deliveryTime": 34,
       },
+      "groupCards":[
+    {
+          "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Veg Sandwiches",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586647",
+                  "name": "Aloo Patty Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Aloo patty seasoned with special herbs and spices, paired with your choice of nutritious veggies, on a freshly baked bread. Serving size : 15 cm - 275 g / 459 kcal , 30 cm - 550 g / 918 kcal , Allergens - Contains wheat, rye, barley, oats, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "ttoydnlmxjmsy4bnxptn",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 24900,
+               
+               
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586652",
+                  "name": "Paneer Tikka Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | A tangy twist to your favourite cottage cheese cubes marinated in tandoori sauce for a spicy, smoky flavour combined with your choice of veggies and sauces, served on a freshly baked bread. Serving size : 15 cm - 280 g / 540 kcal , 30 cm - 560 g / 1080 kcal. Allergens - Contains wheat, rye, barley, oats, milk, cashew nut. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "ibvtgsayrbcarr4w1lgd",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 25900,
+                 
+                 
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586648",
+                  "name": "Veggie Delite Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Delicious combination of fresh lettuce, tomatoes, green peppers, cucumbers, onions, olives and pickles served on a freshly baked bread. Serving size : 15 cm - 220 g / 368 kcal , 30 cm - 440 g / 736 kcal. Allergens - Contains wheat, rye, barley, oats, milk.",
+                  "imageId": "nyijndkvbvxlzytlo5e7",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 22900,
+                
+                
+                  },
+               
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586650",
+                  "name": "Veg Shammi Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Experience authentic flavours with kebab made of lentils and enriched with mouth-watering hints of garlic and onion accompanied by nutritious veggies, in your favourite bread. Serving size : 15 cm - 280 g / 473 kcal , 30 cm - 560 g / 946 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "flljroxppxxq8o47uijs",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 25900,
+                
+                  "itemPriceStrikeOff": true,
+                  "isBolt": true,
+                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                  "imageBadges": [
+                    {
+                      "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                    }
+                  ]
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "119197178",
+                  "name": "Chilli Bean Patty Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "A refreshing filling of red and black kidney beans patty topped with aromatic seasoning along with your choice of veggies and sauces served on a freshly baked bread. Serving size : 15 cm - 280 g / 555 kcal , 30 cm - 560 g / 1110 kcal. Allergens -Contains wheat, rye, barley, oats, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/26/ee075e78-8e1b-4ac3-8117-bef96b08fcc8_02f0132e-b070-49f6-b6fd-af0bdd776f5f.png",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 25900,
+                  "itemPriceStrikeOff": true,
+                  
+                },
+                
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586657",
+                  "name": "Corn & Peas Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | A delicious assortment of green peas, golden corn and diced carrots, dressed with a creamy mixture of eggless mayo, and served on your favourite bread. Serving size : 15 cm - 254 g / 382 kcal , 30 cm - 508 g / 764 kcal. Allergens - Contains wheat, rye, barley, oats, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/467a10ae-87da-4777-817c-712856f10283_b2a93801-25ad-4832-b485-511690a013d8.png_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 24900,
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            }
+          ],
+        } ,
+    },
+    {
+          "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Non Veg Sandwiches",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586661",
+                  "name": "Tandoori Chicken Tikka Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Hearty chicken marinated with flavorful ingredients like yogurt, garlic and ginger, oven cooked with trademark tandoori tikka taste and served with veggies and sauces in your favourite bread. Serving size : 15 cm - 280 g / 521 kcal , 30 cm - 560 g / 1042 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy, cashew nut. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "zpmz8kmwbbfptd8ahya0",
+                  "inStock": 1,
+                  "price": 27900,
+               
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586660",
+                  "name": "Roasted Chicken Strip Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Classic preparation of succulent strips of smoked chicken served with veggies and sauces in your choice of freshly baked bread. Serving size : 15 cm - 280 g / 444 kcal , 30 cm - 560 g / 888 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "pjs0s2n8fc5fbhb4xjvk",
+                  "inStock": 1,
+                  "price": 27900,
+                
+                
+                  "itemPriceStrikeOff": true,
+                  "isBolt": true,
+                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                  "imageBadges": [
+                    {
+                      "imageId": "Purpose%20Built%20Journey/Guiltfree%201_1.png"
+                    }
+                  ]
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586670",
+                  "name": "B.M.T Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Protein-enriched classic Italian B.M.T. sub with a mix of tasty chicken pepperoni, smoked chicken slice topped with your fav sauce to deliver a flavour burst that is served in your choice of freshly baked bread. Serving size : 15 cm - 301 g / 474 kcal , 30 cm - 602 g / 948 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/11/068d3da5-df84-43f8-9cff-505b3ab924f6_e38c202f-fe77-4703-a593-e15e0b5a8e68.png_compressed",
+                  "inStock": 1,
+                  "price": 31900,
+               
+                 
+                
+                 
+                },
+               
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586662",
+                  "name": "Chicken Teriyaki Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Chicken strips glazed with teriyaki sauce, combined with your favourite veggies and topped with our signature sweet onion sauce served hot in a freshly baked bread of your choice. Serving size : 15 cm - 280 g / 397 kcal , 30 cm - 560 g / 794 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "iigw3gyqdbteyyo8pzzr",
+                  "inStock": 1,
+                  "price": 29900,
+                
+              
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586672",
+                  "name": "Peri Peri Chicken Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Let your tastebuds travel the world with African peri-peri flavoured chicken served with nutritious veggies and packaged in your favourite bread of choice. Serving size : 15 cm - 280 g / 504 kcal , 30 cm - 560 g / 1008 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "m1ycfwqyybzqrwoemqfa",
+                  "inStock": 1,
+                  "price": 27900,
+              
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586659",
+                  "name": "Tuna Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Flaked light tuna mixed with eggless mayo and heaped onto your choice of freshly baked bread. You will love every bite of our classic tuna sandwich. Serving size : 15 cm - 275 g / 485 kcal , 30 cm - 550 g / 970 kcal. Allergens - Contains wheat, rye, barley, oats, fish, milk. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "phmsnwsh4igtnsu1zmsu",
+                  "inStock": 1,
+                  "price": 31900,
+               
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586668",
+                  "name": "Chicken Meatball Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Authentic indian meatballs perfectly seasoned and spiced served along with wholesome veggies and packed in your choice of freshly baked bread. Serving size : 15 cm - 280 g / 522 kcal , 30 cm - 560 g / 1044 kcal. Allergens - Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "sxljrq8gbaotjhs9dw2j",
+                  "inStock": 1,
+                  "price": 26900,
+              
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "130702845",
+                  "name": "Spicy Chicken Keema Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Spicy & juicy chicken keema served along with wholesome veggies and packed in your choice of freshly baked bread. Serving size: 15cm -280 g / 510 kcal, 30cm- 560g /1020 kcal. Allergens- Contains wheat, rye, barley, oats, milk, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "992bb1c8ad4fc05c3cc286a25a17216a",
+                  "inStock": 1,
+                  "price": 26900,
+            
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "108586669",
+                  "name": "Chicken Slice Sandwich",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Serves 1 | Sliced smoked chicken with your choice of nutritious vegetables, served on a freshly baked bread. Serving size : 15 cm - 265 g / 384 kcal , 30 cm - 530 g / 768 kcal. Allergens - Contains wheat, rye, barley, oats, soy. Values include multigrain bread, lettuce, tomatoes, onions, green peppers and cucumbers.",
+                  "imageId": "bcgv9fq4aswuogw7owbt",
+                  "inStock": 1,
+                  "price": 26900,
+              
+                
+                 
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "153861262",
+                  "name": "Italian B.M.T (Lamb)",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Protein-enriched classic Italian B.M.T. sub with a mix of lamb pepperoni, smoked chicken slice topped with your fav sauce to deliver a flavour burst that is served in your choice of freshly baked bread. Serving size : 15 cm - 298 g / 482 kcal , 30 cm - 596 g / 964 kcal. Allergens - Contains cereals containing gluten, milk, soy.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/22/07674213-59d2-4799-a341-d963ca1c2af3_e6de2098-9c77-49a6-ba1c-c7fefa1d1b93.png",
+                  "inStock": 1,
+                  "price": 31571,
+               
+                  "ratings": {
+                    "aggregatedRating": {
+                      
+                    }
+                  },
+                  "itemPriceStrikeOff": true
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "153861263",
+                  "name": "Lamb Pepperoni",
+                  "category": "Create Your Own Sandwiches",
+                  "description": "Indulge in 100% NZ quality lamb pepperoni with real mozz cheese, your choice of nutritious vegetables, served on a freshly baked bread. Serving size : 15 cm - 264 g / 460 kcal , 30 cm - 528 g / 920 kcal. Allergens - Contains cereals containing gluten, milk, soy.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/22/b5854cd5-4137-43ad-917b-ff606191d51b_c3fec6f5-4d4b-4b34-8619-231346754e8a.png",
+                  "inStock": 1,
+                  "price": 31571,
+               
+                
+                },
+               
+              }
+            }
+          ],
+         
+        },
+   },
+      ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -696,7 +1565,7 @@ let resList = [
                 "id": "131209996",
                 "name": "Roast Chicken Melt Sandwich + Side + Coke",
                 "category": "SUPER SAVER COMBOS - SAVE UPTO 46%",
-                "description": "Enjoy your favourite Grills sandwich with a choice of drink�and�a�cookie.",
+                "description": "Enjoy your favourite Grills sandwich with a choice of drink and a cookie.",
                 "imageId": "66f7dfa9d7f0e3b1ad27ced7e673544e",
                 "inStock": 1,
                 "price": 33900,
@@ -725,7 +1594,7 @@ let resList = [
                 "id": "131209992",
                 "name": "Chicken Keema Sandwich + Side + Coke",
                 "category": "SUPER SAVER COMBOS - SAVE UPTO 46%",
-                "description": "Enjoy your favourite Grills sandwich with a choice of drink�and�a�cookie.",
+                "description": "Enjoy your favourite Grills sandwich with a choice of drink and a cookie.",
                 "imageId": "40730c1ec1c9294fe8a537c0fb2a061f",
                 "inStock": 1,
                 "price": 29900,
@@ -928,6 +1797,7 @@ let resList = [
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/9/5628a978-69e8-4ac1-8fad-146c2543ff5d_8614.jpg",
     
       "areaName": "Connaught Place",
+      "promoted": false,
       "costForTwo": "₹350 for two",
       "cuisines": [
         "Burgers",
@@ -939,6 +1809,194 @@ let resList = [
         "deliveryTime": 29,
  
       },
+      "groupCards":[
+    { 
+        "card": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+        "title": "Rs 59 Deal of the Day",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "156521978",
+                "name": "Crispy Veg Burger.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/d4387d28-73ab-45b7-b424-61588863d158_9477217d-7c7a-4834-919a-b9ae7d7cf950.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 7000,
+                "finalPrice": 5900,
+              
+              },
+              
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "101196209",
+                "name": "Veg Makhani Burst Burger.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "Enjoy Makhani Flavour With Mix Veg Patty Topped Up With Onion",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/0c8fa5a6-d138-4ea8-aade-f403b504aaee_e7edfd78-ccd7-4448-951d-36d9f6b3ea67.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 8000,
+                "finalPrice": 5900,
+              },
+              
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "156521979",
+                "name": "Regular Fries.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "The perfect crispy partner.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/8ec32a30-ec59-4673-bc5e-16f4b1dc0110_de467db3-09c6-4064-8188-620f259d4541.png_compressed",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 7000,
+                "finalPrice": 5900,
+             
+                
+              
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "156521980",
+                "name": "BK Chicken Pizza Puff.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "\"Crispy puff snack filled with juicy diced chicken, tasty mix veg tomato sauce and mozzarella. Caution: Served Hot.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/8c7c9a04-bbcf-48d9-9157-db014d92c231_b1fb762a-e96d-4360-bf00-398ab95f8fc3.jpg",
+                "inStock": 1,
+                "price": 8900,
+                "finalPrice": 5900,
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "156521981",
+                "name": "BK Veg Pizza Puff.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "\"Crispy savoury pastry with a filling of tomato sauce with corn, carrots, bell peppers, peas and mozzarella. Caution: Served Hot.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/ee5f25e0-5f74-4daf-908a-38f6c8c23f14_35543521-018a-41fc-b967-92858b42c608.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 5900,
+             
+                 },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "102007443",
+                "name": "Veggie Strips - 5 Pcs.",
+                "category": "Rs 59 Deal of the Day",
+                "description": "Vegetarian's favourite finger food.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/aeac450c-d789-4c00-a593-05e352a5b325_4eab783e-7b7d-4401-b8e4-64b1fba9bbf5.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 5900,    
+              },
+             
+            }
+          }
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/d4387d28-73ab-45b7-b424-61588863d158_9477217d-7c7a-4834-919a-b9ae7d7cf950.jpg",
+        "categoryId": "55625952"
+      }
+   }
+  ,{
+    "card": {
+      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+      "title": "Rs 99 Deal Of The Day",
+      "itemCards": [
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "147999714",
+              "name": "Whopper Jr Veg.",
+              "category": "Rs 99 Deal Of The Day",
+              "description": "Our Signature Whopper with Crunchy Veg Patty, Onions, Lettuce, Tomatoes (Seasonal), Gherkins, Creamy And Smoky Sauces \nQty: 194 Gms| Kcal: 456 | Carbs 61.6 Gms| Sugar: 9.2 Gms| Fat: 20 Gms| Saturated fat: 11.9 Gms| Protein: 7.2 Gms| Sodium: 1428.1 Mg \nContains: Gluten, Soybean, Milk, Sesame seeds",
+              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/788d4363-50c2-4b63-b049-f7eb5f6da1b9_9bc014a8-214f-448a-9d3b-e1a8af76b9f5.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 14900,
+              "finalPrice": 9900,
+           
+            
+             
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "147999715",
+              "name": "BK Chicken Burger.",
+              "category": "Rs 99 Deal Of The Day",
+              "description": "BK Chicken Patty, Lettuce, Tomato(Seasonal) & Our Signature Mayo Sauce. \nQty: 164 Gms| Kcal: 415 | Carbs 39 Gms| Sugar: 7.2 Gms| Fat: 21.2 Gms| Saturated fat: 7.2 Gms| Protein: 17 Gms| Sodium: 283.9 Mg \nContains: Gluten, Soybean, Milk, Sesame seeds",
+              "imageId": "232c7e1b2b74dfc2851556a255e148a2",
+              "inStock": 1,
+              "price": 14900,
+              "finalPrice": 9900,  
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+      
+     
+       
+      ],
+      "subtitleSuffix": {
+        
+      },
+      "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/788d4363-50c2-4b63-b049-f7eb5f6da1b9_9bc014a8-214f-448a-9d3b-e1a8af76b9f5.jpg",
+      "categoryId": "51652137"
+    }
+  },
+ ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -1130,6 +2188,7 @@ let resList = [
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/13/41467115-184e-44a6-a343-15d22cb6cf20_324907.JPG",
      
       "areaName": "Mandi House",
+      "promoted": false,
       "costForTwo": "₹300 for two",
       "cuisines": [
         "Ice Cream",
@@ -1142,6 +2201,221 @@ let resList = [
         "deliveryTime": 32,
        
       },
+      "groupCards":[
+        {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Slow ChurnNew Artisanal Fruit Ice Cream",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836243",
+                  "name": "Slow Churn Mango Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "An artisanal fruit ice cream made by slowly churning fresh milk cream and handpicked Mangoes. An ice cream for natural fruit lovers. Kcal/Serving133",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/3bbdc493-6ba9-48a6-b68b-7dd285f78562_aff299a3-2fdc-4f53-b8c7-8059fa66d00e.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836245",
+                  "name": "Slow Churn Strawberry Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "Handpicked real Strawberry and fresh milk cream, slowly churned to give a gourmet icecream. Best for those who love natural berries in ice creams Kcal/Serving124",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/4f07cd73-f0cb-4e4e-a191-178397767a61_a33ee726-6b9d-4d6c-8f0d-fff4f656b7f5.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+                  },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836214",
+                  "name": "Slow Churn Pink Guava Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "Indulge in an artisanal  icecream made by slowly churning fresh milk cream and Pink Guavas. Delight natural fruit ice cream lovers. Kcal/Serving129",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/29dc7a86-1e0e-4c26-aeb8-79245d859068_8219e604-74ef-450a-a8d8-3280b573a929.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+                
+                
+                },
+               
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836210",
+                  "name": "Slow Churn Chikoo Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "Handpicked sweet Chikoos churned slowly with milk cream to give fruit a creamy icecream. Best for those who enjoy chikoo fruit ice cream Kcal/Serving132",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/b39d255e-06f6-437e-8f93-70b143d79821_cd4a9c87-5f08-48b0-bbe6-a50a5af6965e.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+              
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836235",
+                  "name": "Slow Churn Jamun Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "Creamy gourmet premium icecream made by slowly churning real Jamun fruit and fresh milk cream. Best for those who love tropical jamuns chunks in their ice cream",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/051dfc63-4c8e-4d37-88e2-f4e8b3852265_cebee740-303a-4480-a939-e373304b5c80.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+               
+                  
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836209",
+                  "name": "Slow Churn Mulberry Ice Cream 500 ML",
+                  "category": "Slow ChurnNew Artisanal Fruit Ice Cream",
+                  "description": "An artisanal premium fruit ice cream made by slowly churning fresh milk cream and  Mulberries. A delight any berries lover.  Kcal/Serving132",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/207cd657-5c1b-49f3-96ab-a43df2a2a3da_bed1bfaf-5c9b-45c2-b3d4-c41a66ffa205.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 37500,
+             
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            }
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/3bbdc493-6ba9-48a6-b68b-7dd285f78562_aff299a3-2fdc-4f53-b8c7-8059fa66d00e.jpg_compressed",
+          "categoryId": "58525649"
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Kwality Wall's New Arrivals",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836251",
+                  "name": "Choco Brownie Fudge Party Pack 700ml",
+                  "category": "Kwality Wall's New Arrivals",
+                  "description": "Choco Brownie Fudge is a delectable treat that combines the richness of chocolate with the indulgence of fudgy brownies. This frozen dessert features a velvety chocolate base swirled with generous chunks of fudge brownie pieces throughout Kcal/Serving129",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/da0d254d-766d-42d1-89b5-6b9bf3595542_7bc0ce81-382b-4702-8bee-b339d3d860a7.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 18000,
+               
+                  
+                
+                  
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836239",
+                  "name": "American Nuts Party Pack 700ml",
+                  "category": "Kwality Wall's New Arrivals",
+                  "description": "Dive into a world full of nuts and raisins, Crunchy creamy and delicious! Kcal/Serving130",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/6b2a88cc-e882-4ae5-b9c9-e382dc091f3a_c6836f20-5b84-4e34-aa48-c90b3a7241c2.jpg",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 16000,
+                
+                 
+                  
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "163836222",
+                  "name": "Feast Cadbury Crackle 70ml",
+                  "category": "Kwality Wall's New Arrivals",
+                  "description": "Experience the delight of Cadbury Crackle chocolate in a Kwality Walls Feast. Every bite has the deliciousness of Cadbury crackle Chocolate with signature hard chocolate. For any chocolate lover",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/7ba31cec-da68-4025-a3b3-29c32732ad2a_c89cbdc8-73f6-4e06-846c-f74136d5f679.jpg_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 6000,
+                
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+           
+        
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/23/da0d254d-766d-42d1-89b5-6b9bf3595542_7bc0ce81-382b-4702-8bee-b339d3d860a7.jpg_compressed",
+          "categoryId": "58525645"
+        }
+      }],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -1383,6 +2657,7 @@ let resList = [
       "cloudinaryImageId": "ru7j7x8qqtvuzfuw7cdh",
      
       "areaName": "Janpath",
+      "promoted": true,
       "costForTwo": "₹300 for two",
       "cuisines": [
         "North Indian",
@@ -1398,6 +2673,288 @@ let resList = [
         "deliveryTime": 34,
       
       },
+      "groupCards":[
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Kebabs Platter and Starters",
+            "itemCards": [
+           
+           
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374486",
+                    "name": "Tandoori Tangdi (3Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Chicken Drumstick marinated in Indian spices and hung curd cooked in clay oven -Tandoor and served with Salad mix and Mint Chutney.  Tangdi Kabab for any occasion.",
+                    "imageId": "43c91a42d76e180ce9b3a6f9c3c19b91",
+                    "inStock": 1,
+                    "price": 35900,
+                  
+                 
+                    
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "77902529",
+                    "name": "Chicken Seekh Kebab",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Succulent kebabs (6Nos) made from tender meat, masalas and seasoning,grilled on skewers till perfection. Served with Mint Chutney &Lacha Onions. Kcal - 583",
+                    "imageId": "0ce722ff34632c00e23e3c70a8fb4217",
+                    "inStock": 1,
+                    "price": 25900,
+                 
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374433",
+                    "name": "Tandoori Paneer Tikka (8 Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Cottage Cheese marinated in Indian spices and hung curd cooked in clay oven -Tandoor and served with Salad mix and Mint Chutney. Kcal - 753",
+                    "imageId": "a19b443af1f23cb3317c82648a66f954",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 33900,
+                   
+                  
+                  
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374461",
+                    "name": "Chicken Tikka (Boneless) (8 Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Boneless Chicken chunks marinated in  authentic tikka masala and grilled on skewers, one of India's most popular dishes. Kcal - 615",
+                    "imageId": "bcirausndatlpylzwk4l",
+                    "inStock": 1,
+                    "price": 36900,
+                  
+                  
+                    
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "78440312",
+                    "name": "Mutton Seekh Kebab",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Scrumptious, full of juices & flavors- These mutton mince kebabs (6Nos) cooked with Indian aromatic spices are perfect as a starter. Kcal - 450",
+                    "imageId": "ca10f7eac804d7322f2ad7781acf843e",
+                    "inStock": 1,
+                    "price": 34900,
+                
+                  
+              
+                    
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "144200068",
+                    "name": "Steamed Masala Corn (Butter)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Tender corn kernels infused with creamy butter. Topped with a finely chopped onion, fresh coriander, and green chili. Served with Cajun Seasoning.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/b7901d42-4b00-4825-8f5a-ae33a6a61788_e7793752-3d24-4799-b8eb-52b97eebbbac.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 20900,
+                  
+                 
+                  },
+              
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "33767443",
+                    "name": "Tandoori Mushroom",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Button Mushrooms marinated with tandoori spice , grilled to golden brown perfection and brushed with butter. Kcal - 182",
+                    "imageId": "gijzyjxsc2dgcrysk2px",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 29900,
+                 
+                   
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "144200069",
+                    "name": "Steamed Masala Corn (Plain)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Tender corn kernels topped with a finely chopped onion, fresh coriander, and green chili. Served with Cajun Seasoning.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/cb9bd53a-9628-4075-9abc-931b070e4826_4a63c6a0-37dd-4207-a03a-43b88bd6ebd0.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 18900,
+                
+                  
+                  },
+                
+                  "hideRestaurantDetails": true
+                }
+              }
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "cxnpmaw7shz2w1t9mvkf",
+            "categoryId": "12080272"
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Barbeque in a Box (Serves 2-3)",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "101283028",
+                    "name": "Barbeque In A Box (Veg) Premium",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Six Starters] - Tandoori Paneer Tikka (4 Pcs) + Churrasco Pineapple (6 Pcs) + Veg Kebabs (6 Pcs) + Veg Rolls (6 Pcs) + Cheese Triangle (6 Pcs) + Assorted Grilled Corn & Veg (2 Nos) [Main Course] - Paneer Butter Masala + Mix Veg + Dal Makhani + Veg Dum Biryani + Whole Wheat Paratha (3 Nos) [Three Desserts] Angoori Jamun (8 Pcs) + Moong Dal Halwa + Brownie. Accompanied with Mint Chutney, Salan, Dips & Salad. Barbeque Nation buffet served at home.",
+                    "imageId": "ms4gatxolkuncr145vbz",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 101900,
+                 
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "101283027",
+                    "name": "Barbeque in a Box (Non Veg Overload)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Five Starters] Chilly Garlic Prawns (6 Pcs) + Chicken Tikka (4 Pcs) + Tandoori Tangdi (2 Pcs) + Chicken Wings (6 Pcs) + Fish Tikka (6 Pcs) + [Main Course] Butter Chicken Masala + Mutton Rogan Josh + Egg Curry + Chicken Dum Biryani + Whole Wheat Paratha (3 Pcs) [Three Desserts] Angoori Gulab Jamun (8 Nos) + Brownie + Moong Dal Halwa. Accompanied with Mint Chutney, Salan, Dips & Salad.",
+                    "imageId": "suogu1jyv51m2eg7eirk",
+                    "inStock": 1,
+                    "price": 131900,
+                 
+                   
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "72240465",
+                    "name": "Barbeque in a Box (Mutton Biryani Overload)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | Mutton Dum Biryani (3 Portions) + Tandoori Tangdi (2 Pcs) + Chicken Tikka (4 Pcs) + Fish Tikka (6 Pcs) + Chilly Garlic Prawns(6 Pcs) + Chicken Wings (6 Pcs) + Angoori Gulab Jamun (8 Pcs) + Brownie + Moong Dal Halwa. Accompanied with Mint Chutney, Raita, Salan, Dips & Salad. Relish biryani of Succulent mutton pieces marinated in freshly roasted spices and cooked with aromatic long grain Basmati rice in the Dum style. Earlier called as Biryanis and Kebabs Box (Mutton) Premium",
+                    "imageId": "40fe28af93d3039bf6acdd47dc5b95ac",
+                    "inStock": 1,
+                    "price": 131900,
+                  
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "100353156",
+                    "name": "Barbeque in a Box (Non Veg) Premium (With Prawns and Mutton)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Six Starters]- Chilly Garlic Prawns (6 Pcs) + Chicken Tikka (4 Pcs) + Chicken Wings (6 Pcs) + Fish Tikka (6 Pcs) + Veg Kebabs (6 Pcs) + Veg Rolls (6 Pcs) [Main Course] - Butter Chicken + Mutton Rogan Josh + Dal Makhani + Chicken Dum Biryani + Whole Wheat Paratha (3 Nos) [Three Desserts] - Angoori Jamun (8 Pcs)+ Moong Dal Halwa + Brownie - Accompanied with Mint Chutney, Salan, Dips & Salad. A premium Barbeque Nation buffet served at home.",
+                    "imageId": "e2ewnaxscaxstws68p4o",
+                    "inStock": 1,
+                    "price": 126900,
+                 
+                  
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+             
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "ms4gatxolkuncr145vbz",
+            "categoryId": "32262108"
+          }
+        }
+
+      ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -1631,6 +3188,7 @@ let resList = [
       "name": "McDonald's",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/8/50440b7b-5d81-4298-8ce0-5327c74109c6_253718.jpg",
       "locality": "Tolstoy Marg",
+      "promoted": false,
       "areaName": "Janpath",
       "costForTwo": "₹400 for two",
       "cuisines": [
@@ -1641,6 +3199,191 @@ let resList = [
         "deliveryTime": 25,
       
       },
+      "groupCards":[
+        {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "What’s New",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "143667697",
+                  "name": " McFlurry Choco Caramel*",
+                  "category": "What’s New",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/9/3fa87d10-9806-4485-839e-8c4a8126262c_4c14c169-7c89-40e5-a8e1-694f3676bf50.png",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 13700,
+              
+              
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "143667698",
+                  "name": "Small McFlurry Choco Caramel*",
+                  "category": "What’s New",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/9/3fa87d10-9806-4485-839e-8c4a8126262c_4c14c169-7c89-40e5-a8e1-694f3676bf50.png",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 10400,
+              
+                 
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "148437286",
+                  "name": "Coke ® Zero",
+                  "category": "What’s New",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/15/39d41491-2301-4245-a905-a98b6179d3f0_12cc104e-c08c-48bf-b380-8da8e955ea1f.png",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 9100,
+                  },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            }
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "FOOD_CATALOG/IMAGES/CMS/2024/9/9/3fa87d10-9806-4485-839e-8c4a8126262c_4c14c169-7c89-40e5-a8e1-694f3676bf50.png",
+          "categoryId": "21036892"
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Menu Starts @125/-",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "139766300",
+                  "name": "McVeggie Burger+ Small Fries+Small Coke+McPuff",
+                  "category": "Menu Starts @125/-",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/11/41a4b8dc-4f0f-4a96-a420-6871f09235c2_67e053a0-e833-4928-95b7-375713df6243.png",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 20200,
+                
+                 
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "139766301",
+                  "name": "McChicken Burger+Small Fries +Small Coke+McPuff",
+                  "category": "Menu Starts @125/-",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/11/85976806-e9c4-4212-b3aa-4db4a923a7c3_630a15df-8aa6-4d1e-857c-dfb6a55ade43.png",
+                  "inStock": 1,
+                  "price": 23700,
+              
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "132479719",
+                  "name": "McAloo Tikki+Small Fries+Small drink+McPuff",
+                  "category": "Menu Starts @125/-",
+                  "imageId": "befe665d4e3a53a7c0457b86d3639f76",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 14300,
+                  },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "132479718",
+                  "name": "McAloo Tikki+Small Fries+Small drink+McFlurry",
+                  "category": "Menu Starts @125/-",
+                  "imageId": "603910c78cafc651f7156a415d64bc9b",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 16600,
+               
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "132479722",
+                  "name": "McAloo Tikki+Small Coke",
+                  "category": "Menu Starts @125/-",
+                  "imageId": "5a64912a4a299d7f8f84e15b33a0dc44",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 13500,
+        
+               
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/11/41a4b8dc-4f0f-4a96-a420-6871f09235c2_67e053a0-e833-4928-95b7-375713df6243.png",
+          "categoryId": "57789229"
+        }
+      }],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Signature Collection",
@@ -1751,6 +3494,7 @@ let resList = [
       "name": "Domino's Pizza",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/17/a72181e9-05f0-45a2-ab6f-4ec70e4d3e17_24207.jpg",
       "areaName": "Connaught Place",
+      "promoted": true,
       "costForTwo": "₹400 for two",
       "cuisines": [
         "Pizzas",
@@ -1764,6 +3508,135 @@ let resList = [
         "deliveryTime": 25,
        
       },
+      "cardGroups":[
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Love Loaded Pizzas",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342970",
+                    "name": "Loaded Chicken Pepperoni",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza topped with Chicken Pepperoni & extra Cheese",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/91a61fda-46da-40ca-aca8-13bedcfb6e83_0be67f27-9056-4d95-bbfc-693fcade58de.jpg",
+                    "inStock": 1, },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342969",
+                    "name": "Loaded Peppy Paneer",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza loaded with Juicy Paneer, Crisp Capsicum & Spicy Red Paprika",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/14119aa7-6ea8-4824-8307-a336ddb9726a_c028e1b0-a5f8-4b34-9cb8-d1e0bc5e9750.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 40900,
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342974",
+                    "name": "Loaded Chicken Dominator",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza loaded with loads of Chicken",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/19925c11-6031-48da-b4ad-62d666352b13_8297e0c9-bacc-4928-a2ff-7f88c700a407.jpg",
+                    "inStock": 1,
+                  
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342971",
+                    "name": "Loaded Veggie Paradise",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza loaded with Golden Corn, Black Olives, Capsicum & Red Paprika",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/5ca0435e-29ae-42be-a625-8ead6d6de633_d3192c66-881a-4788-b38b-5850c295be7d.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 38900,
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342973",
+                    "name": "Loaded Pepper BBQ Chicken",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza with Pepper BBQ Chicken for that extra zing",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/36a076dc-0f7c-42ee-8fc8-c614ea27740a_7fa3a6a3-d24f-4658-8922-b2d7a0f471a3.jpg",
+                    "inStock": 1,
+                   },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "133342975",
+                    "name": "Loaded Farmhouse",
+                    "category": "Love Loaded Pizzas",
+                    "description": "Valentine’s Special: Thin Crust Cheese Burst pizza loaded with Onion, Capsicum, Tomato & Grilled Mushroom",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/078d1c15-b08a-4dbe-b349-fd99cddf1386_a9413d98-525d-40d6-b7ba-847b398b9206.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                 
+                 
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              }
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "FOOD_CATALOG/IMAGES/CMS/2025/2/4/91a61fda-46da-40ca-aca8-13bedcfb6e83_0be67f27-9056-4d95-bbfc-693fcade58de.jpg",
+            "categoryId": "58395071"
+          }
+        }
+
+      ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -2018,6 +3891,7 @@ let resList = [
       "name": "Salad Days",
       "cloudinaryImageId": "cfa1123ebf17413dc7d0a80c7361fab3",
       "locality": "Gole Market",
+      "promoted": false,
       "areaName": "Gole Market",
       "costForTwo": "₹600 for two",
       "cuisines": [
@@ -2029,6 +3903,83 @@ let resList = [
         "deliveryTime": 26,
        
       },
+      "groupCards":[   
+      {
+          "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+        "title": "Non Veg Salads",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "81458828",
+                "name": "Roasted Chicken Salad",
+                "category": "GOURMET SALAD MEALS",
+                "description": "Tender roasted chicken breast, salad greens, sweet bell peppers, black olives, onions, honey Dijon-roasted peppers dressing & bread",
+                "imageId": "17e4a340c1af40d7b4aba3c4e803d52a",
+                "inStock": 1,
+                "price": 31900,
+                "finalPrice": 30900,
+             
+             
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "81458814",
+                "name": "Chicken Pesto Pasta Salad",
+                "category": "GOURMET SALAD MEALS",
+                "description": "Whole-wheat pasta, assorted greens, roasted chicken breast, broccoli, sun-dried tomatoes, black olives, sweet basil, yogurt-pesto dressing & bread",
+                "imageId": "f4a4450c085a0e6933784ea2a5f9fe59",
+                "inStock": 1,
+                "price": 31900,
+           
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "81458832",
+                "name": "Blackened Chicken, Avocado & Orange Salad",
+                "category": "GOURMET SALAD MEALS",
+                "description": "Exotic salad of salad greens, spiced chicken breast, Hass avocado, Orange, mint, coriander, shallots, red chili, mustard honey vinaigrette & bread",
+                "imageId": "9f17883ced8cd7c3469f8fff13f5fcff",
+                "inStock": 1,
+                "price": 37900,
+           
+              
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+        
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "53453671"
+      },
+    },
+   ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
         "title": "Gourmet Salad Meals",
@@ -2186,6 +4137,7 @@ let resList = [
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/16/f63a6861-4706-4534-8fc4-e95fec2e0ab8_16865.jpg",
       "locality": "Connaught Place",
       "areaName": "Connaught Place",
+      "promoted": true,
       "costForTwo": "₹350 for two",
       "cuisines": [
         "Pizzas"
@@ -2198,204 +4150,729 @@ let resList = [
         "deliveryTime": 32,
      
       },
-      "card": {
-      
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-          "title": "Recommended",
-          "itemCards": [
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430320",
-                  "name": "Veggie Supreme",
-                  "category": "Veg Pizza",
-                  "description": "Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-254 Kcal/100g | TnC-258 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "z0c4xpovma1qtmu4tlls",
-                  "inStock": 1,
-                  "isVeg": 1,
-               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430137",
-                  "name": "Tandoori Paneer",
-                  "category": "Veg Pizza",
-                  "description": "Serves 1 | It's our signature. Spiced paneer, crunchy onions & green capsicum, spicy red paprika with delicious tandoori sauce and 100% mozzarella cheese! (PAN Per/Med-335 Kcal/100g | TnC-326 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "s5ld93rsknx0fhj6xarn",
-                  "inStock": 1,
-                  "isVeg": 1,
-                },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430382",
-                  "name": "Margherita",
-                  "category": "Veg Pizza",
-                  "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! (PAN Per/Med-292 Kcal/100g | TnC-293 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "dpventcrozvfni0lqb10",
-                  "inStock": 1,
-                  "isVeg": 1,
+      "groupCards":[
+  {  
+           "card": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+        "title": "Veg Pizza",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107796625",
+                "name": "Margherita Pizza",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! (292 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "dpventcrozvfni0lqb10",
+                "price": 16900,
+                }, 
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436805",
+                "name": "Tandoori Paneer",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | It's our signature. Spiced paneer, crunchy onions & green capsicum, spicy red paprika with delicious tandoori sauce and 100% mozzarella cheese! (PAN Per/Med-335 Kcal/100g | TnC-326 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "s5ld93rsknx0fhj6xarn",
+                "inStock": 1,
+                "isVeg": 1,
+               
+                "price": 31900,
+               
+                "type": "ITEM",
+                
+              
               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430187",
-                  "name": "Veggie Feast",
-                  "category": "Veg Pizza",
-                  "description": "Serves 1 | Herbed onion and green capsicum, juicy sweet corn & 100% mozzarella cheese with flavourful pan sauce (PAN Per/Med-269 Kcal/100g | TnC-274 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "cbye9x7wxeopwqvenn7g",
-                  "inStock": 1,
-                  "isVeg": 1,
+              
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436923",
+                "name": "Veggie Feast",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Herbed onion and green capsicum, juicy sweet corn & 100% mozzarella cheese with flavourful pan sauce (PAN Per/Med-269 Kcal/100g | TnC-274 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "cbye9x7wxeopwqvenn7g",
+                "inStock": 1,
+                "isVeg": 1,
+              
               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430133",
-                  "name": "Country Feast",
-                  "category": "Veg Pizza",
-                  "description": "Serves 1 | Loaded with herbed onion & green capsicum, sweet corn, tomato with signature pan sauce and 100% mozzarella cheese. It's a feast you can't refuse (PAN Per/Med-244 Kcal/100g | TnC-282 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "c3832837392378cca98e484b89c313ba",
-                  "inStock": 1,
-                  "isVeg": 1,
-               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430103",
-                  "name": "Chicken Supreme",
-                  "category": "Non Veg Pizza",
-                  "description": "Serves 1 | Loaded with delicious chicken tikka, flavourful herbed chicken, spicy schezwan chicken meatball with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-273 Kcal/100g | TnC-284 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "dlvdmsn1uotbdn4vzvap",
-                  "inStock": 1,
-               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "107430009",
-                  "name": "Triple Chicken Feast",
-                  "category": "Non Veg Pizza",
-                  "description": "Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with classic pan sauce and 100% mozzarella cheese (PAN Per/Med-262 Kcal/100g | TnC-277 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
-                  "imageId": "quxirmjttzksp7xlhysc",
-                  "inStock": 1,
-                     },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "113731421",
-                  "name": "Country Feast - Personal",
-                  "category": "Flat Menu @189",
-                  "description": "Serves 1 | Loaded with Herbed Onion & Green capsicum, Sweet Corn & Tomato with signature pan sauce and 100% mozzarella cheese. It's a feast you can't refuse. (PAN Per-244Kcal/100g)",
-                  "imageId": "c3832837392378cca98e484b89c313ba",
-                  "inStock": 1,
-                  "isVeg": 1,
-                  "price": 31900,
-                  "finalPrice": 18900,
-        },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "129786622",
-                  "name": "Classic BreadStix + Classic BreadStix",
-                  "category": "Flat Menu @189",
-                  "description": "Serves 1 | Freshly baked 2 Classic BreadStix ! The perfect pairing with your delicious pizza or on their own as a snack.",
-                  "imageId": "bbb62b706156b341665fea94695fa19e",
-                  "inStock": 1,
-                  "isVeg": 1,
-                  "price": 23800,
-                  "finalPrice": 18900,
-                },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "114220976",
-                  "name": "Spiced Paneer - Personal",
-                  "category": "Flat Menu @189",
-                  "description": "Serves 1 | Spiced Paneer, crunchy Onion, juicy Tomato & 100% mozzarella cheese, with our classic pan sauce. (PAN Per-276Kcal/100g)",
-                  "imageId": "a89yqx09ppwlecyqterp",
-                  "inStock": 1,
-                  "isVeg": 1,
-                  "price": 25900,
-                  "finalPrice": 18900,
-             },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "113731425",
-                  "name": "Veggie Feast - Personal",
-                  "category": "Flat Menu @189",
-                  "description": "Serves 1 | Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce. (PAN Per-269Kcal/100g)",
-                  "imageId": "cbye9x7wxeopwqvenn7g",
-                  "inStock": 1,
-                  "isVeg": 1,
-                  "price": 25900,
-                  "finalPrice": 18900,
-               },
-                "hideRestaurantDetails": true
-              }
-            },
-            {
-              "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-                "info": {
-                  "id": "113731426",
-                  "name": "Chicken Sausage - Personal",
-                  "category": "Flat Menu @189",
-                  "description": "Serves 1 | Pizza topped with Chicken n Cheese Sausages & crunchy Onions, flavourful pan sauce and 100% mozzarella cheese. (PAN Per-310Kcal/100g)",
-                  "imageId": "aylqpxx08pltowbzxhd3",
-                  "inStock": 1,
-                  "price": 25900,
-                  "finalPrice": 18900,
-                         },
-                "hideRestaurantDetails": true
-              }
-            },
+              
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436674",
+                "name": "Veggie Supreme",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-254 Kcal/100g | TnC-258 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "z0c4xpovma1qtmu4tlls",
+                "inStock": 1,
+                "isVeg": 1,
+               
+              
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "116286350",
+                "name": "Ultimate Tandoori Veggie",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | An ultimate combination of your favourite veggies-onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo (PAN Per/Med-314 Kcal/100g | TnC-395 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "b7d1f56df6414f8b6e49001af95e259a",
+                "inStock": 1,
+                "isVeg": 1,
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "116286354",
+                "name": "Awesome American Cheesy",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce (PAN Per/Med-290 Kcal/100g | TnC-300 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "9bd233c76aaf2d2745c5c07332609a8c",
+                "inStock": 1,
+                "isVeg": 1,
+              
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "116286353",
+                "name": "Mazedar Makhni Paneer",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle (PAN Per/Med-288 Kcal/100g | TnC-290 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "bf62afee565475fb92a204206321a41c",
+                "inStock": 1,
+                "isVeg": 1,
+             
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "135321309",
+                "name": "Bold BBQ Veggies",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Our signature pan sauce, with BBQ Sauce drizzle, topped with mushroom, onion, green capsicum, & red paprika (PAN Per/Med-242 Kcal/100g | TnC-266 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "d4d697a58b3a97a46676fa8712e90ed7",
+                "inStock": 1,
+                "isVeg": 1,
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107437053",
+                "name": "Margherita",
+                "category": "Veg Pizza",
+                "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! (PAN Per/Med-292 Kcal/100g | TnC-293 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "dpventcrozvfni0lqb10",
+                "inStock": 1,
+                "isVeg": 1,
+            
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "116286346",
+                "name": "Mexican Fiesta",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella cheese with a signature spice sprinkle & our flavourful pan sauce (PAN Per/Med-266 Kcal/100g | TnC-258 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "0c4c12819d98a35144e3f08451ae64f3",
+                "inStock": 1,
+                "isVeg": 1,
+               
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436715",
+                "name": "Country Feast",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Loaded with herbed onion & green capsicum, sweet corn, tomato with signature pan sauce and 100% mozzarella cheese. It's a feast you can't refuse (PAN Per/Med-244 Kcal/100g | TnC-282 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "c3832837392378cca98e484b89c313ba",
+                "inStock": 1,
+                "isVeg": 1,
+             
+             
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436811",
+                "name": "Corn & Cheese",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | A combination of juicy sweet corn & 100% mozzarella cheese with flavourful signature pan sauce (PAN Per/Med-320 Kcal/100g | TnC-304 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "ckbnw98n6tffy50wvuzm",
+                "inStock": 1,
+                "isVeg": 1,
+             
+              
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "107436973",
+                "name": "Spiced Paneer",
+                "category": "Veg Pizza",
+                "description": "Serves 1 | Spiced paneer, crunchy onion, juicy tomato & 100% mozzarella cheese, with our classic pan sauce (PAN Per/Med-276 Kcal/100g | TnC-283 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "a89yqx09ppwlecyqterp",
+                "inStock": 1,
+                "isVeg": 1,
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "116286344",
+                "name": "Schezwan Margherita",
+                "category": "Veg Pizza",
+                "description": "Serves 2 | Your very own margherita, now with a spicy twist! Loaded with our signature spicy schezwan sauce & 100% mozzarella cheese (PAN Per/Med-300 Kcal/100g | TnC-309 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                "imageId": "0e7df98b7cffdb0b88856464014ad2ff",
+                "inStock": 1,
+                "isVeg": 1,
+               
+                
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          }
+        ],
+        "subtitleSuffix": {
           
-         
-        
-          ],
-          "type": "CATEGORY_TYPE_RECOMMENDED"
+        },
+        "image": "dpventcrozvfni0lqb10",
+        "categoryId": "34311079"
+      }
+  },
+  {
+    "card": {
+      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+      "title": "Non Veg Pizza",
+      "itemCards": [
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "116286356",
+              "name": "Sausage & Sweet Corn.",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Our classic chicken & cheese sausage, juicy sweet corn and 100% mozzarella cheese with flavourful pan sauce (PAN Per/Med-277 Kcal/100g | TnC-282 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "190c84ffc8773254c38b3b993e31ba73",
+              "inStock": 1,
+            
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436934",
+              "name": "Chicken Pepperoni",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Yummy chicken pepperoni & 100% mozzarella cheese with signature pan sauce. Its a classic! (PAN Per/Med-301 Kcal/100g | TnC-311 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "gdz44c9hirco09bdafoq",
+              "inStock": 1,
+             
+           
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "116286376",
+              "name": "Sizzling Schezwan Chicken",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Loaded with our signature spicy schezwan sauce, juicy schezwan chicken meatballs & 100% mozzarella cheese (PAN Per/Med-277 Kcal/100g | TnC-286 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "4061af0525c00c89f0d1edbe7216765c",
+              "inStock": 1,
+            
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436613",
+              "name": "Triple Chicken Feast",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with classic pan sauce and 100% mozzarella cheese (PAN Per/Med-262 Kcal/100g | TnC-277 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "quxirmjttzksp7xlhysc",
+              "inStock": 1,
+           
+            },
+            
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436683",
+              "name": "Chicken Supreme",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Loaded with delicious chicken tikka, flavourful herbed chicken, spicy schezwan chicken meatball with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-273 Kcal/100g | TnC-284 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "dlvdmsn1uotbdn4vzvap",
+              "inStock": 1,
+           
+           
+            
+              
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "116286375",
+              "name": "Dhabe Da Keema",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Dhaba style chicken keema masala, with green chiili, crunchy onion with flavourful pan sauce, 100 % mozzarella cheese & a generous drizzle of mint mayo (PAN Per/Med-270 Kcal/100g | TnC-290 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "d9eddb1993da4e5dc65ef2ceaa8503f7",
+              "inStock": 1,
+             
+             
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436627",
+              "name": "Murg Malai Chicken",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Amazingly flavourful chicken malai tikka, herbed onion & green capsicum, spicy red paprika with flavourful pan sauce and 100% mozzarella cheese (PAN Per/Med-269 Kcal/100g | TnC-299 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "t1stinhga3alitdpr6yt",
+              "inStock": 1,
+            
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436617",
+              "name": "Chicken Tikka Supreme",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | A divine combination of delicious chicken tikka & malai chicken tikka, onion, spicy red paprika with flavourful pan sauce and 100% mozzarella cheese (PAN Per/Med-267 Kcal/100g |TnC-274 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "d3bnas8nxt9dr13jhipu",
+              "inStock": 1,
+           
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "116286381",
+              "name": "Nawabi Murg Makhni",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | A chicken lovers delight! Combination of chicken malai tikka, flavourful chicken keema masala, crunchy onion, juicy tomato on our new makhni sauce with 100% mozzarella cheese and buttery spice sprinkle (PAN Per/Med-252 Kcal/100g | TnC-269 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "eb7467f9836bde6741eff6cf81b996da",
+              "inStock": 1,
+             
+             
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "116286379",
+              "name": "Awesome American Cheesy Chicken",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Our divine peruvian flavoured cheesy sauce, topped with classic chicken pepperoni, cheese and chicken sausage black olives, spicy jalapeno and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce. (PAN Per/Med-297 Kcal/100g | TnC-301 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "f55016931d13f7489c6140de76fa16aa",
+              "inStock": 1,
+            
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436623",
+              "name": "Chicken Tikka",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Mouth-watering chicken tikka, crunchy onion & tomato with delicious tandoori sauce and 100% mozzarella cheese (PAN Per/Med-275 Kcal/100g | TnC-283 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "juplqft4tmub5hqocwxk",
+              "inStock": 1,
+             
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "107436836",
+              "name": "Chicken Sausage",
+              "category": "Non Veg Pizza",
+              "description": "Serves 1 | Pizza topped with chicken n cheese sausages & crunchy onions, flavourful pan sauce and 100% mozzarella cheese (PAN Per/Med-310 Kcal/100g | TnC-312 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+              "imageId": "aylqpxx08pltowbzxhd3",
+              "inStock": 1,
+              
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
         }
+      ],
+      "subtitleSuffix": {
+        
+      },
+      "image": "190c84ffc8773254c38b3b993e31ba73",
+      "categoryId": "34311078"
+    }
+
+  }
+  ],
+  "card": {
+      
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+    "title": "Recommended",
+    "itemCards": [
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430320",
+            "name": "Veggie Supreme",
+            "category": "Veg Pizza",
+            "description": "Serves 1 | A supreme combination of black olives, green capsicum, mushroom, onion, spicy red paprika & juicy sweet corn with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-254 Kcal/100g | TnC-258 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "z0c4xpovma1qtmu4tlls",
+            "inStock": 1,
+            "isVeg": 1,
+         },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430137",
+            "name": "Tandoori Paneer",
+            "category": "Veg Pizza",
+            "description": "Serves 1 | It's our signature. Spiced paneer, crunchy onions & green capsicum, spicy red paprika with delicious tandoori sauce and 100% mozzarella cheese! (PAN Per/Med-335 Kcal/100g | TnC-326 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "s5ld93rsknx0fhj6xarn",
+            "inStock": 1,
+            "isVeg": 1,
+          },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430382",
+            "name": "Margherita",
+            "category": "Veg Pizza",
+            "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there! (PAN Per/Med-292 Kcal/100g | TnC-293 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "dpventcrozvfni0lqb10",
+            "inStock": 1,
+            "isVeg": 1,
+        },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430187",
+            "name": "Veggie Feast",
+            "category": "Veg Pizza",
+            "description": "Serves 1 | Herbed onion and green capsicum, juicy sweet corn & 100% mozzarella cheese with flavourful pan sauce (PAN Per/Med-269 Kcal/100g | TnC-274 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "cbye9x7wxeopwqvenn7g",
+            "inStock": 1,
+            "isVeg": 1,
+        },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430133",
+            "name": "Country Feast",
+            "category": "Veg Pizza",
+            "description": "Serves 1 | Loaded with herbed onion & green capsicum, sweet corn, tomato with signature pan sauce and 100% mozzarella cheese. It's a feast you can't refuse (PAN Per/Med-244 Kcal/100g | TnC-282 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "c3832837392378cca98e484b89c313ba",
+            "inStock": 1,
+            "isVeg": 1,
+         },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430103",
+            "name": "Chicken Supreme",
+            "category": "Non Veg Pizza",
+            "description": "Serves 1 | Loaded with delicious chicken tikka, flavourful herbed chicken, spicy schezwan chicken meatball with flavourful pan sauce and 100% mozzarella cheese. (PAN Per/Med-273 Kcal/100g | TnC-284 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "dlvdmsn1uotbdn4vzvap",
+            "inStock": 1,
+         },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "107430009",
+            "name": "Triple Chicken Feast",
+            "category": "Non Veg Pizza",
+            "description": "Serves 1 | Spicy schezwan chicken meatball, flavourful herbed chicken, juicy chicken sausage, green capsicum & onion, spicy red paprika with classic pan sauce and 100% mozzarella cheese (PAN Per/Med-262 Kcal/100g | TnC-277 Kcal/100g | Stuffed Crust Add : Per: 227 Kcal/100g | Med: 216 Kcal/100g | Stuff Crust Chicken Seekh Kebab Add : Per: 256 Kcal/100g | Med: 253 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+            "imageId": "quxirmjttzksp7xlhysc",
+            "inStock": 1,
+               },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "113731421",
+            "name": "Country Feast - Personal",
+            "category": "Flat Menu @189",
+            "description": "Serves 1 | Loaded with Herbed Onion & Green capsicum, Sweet Corn & Tomato with signature pan sauce and 100% mozzarella cheese. It's a feast you can't refuse. (PAN Per-244Kcal/100g)",
+            "imageId": "c3832837392378cca98e484b89c313ba",
+            "inStock": 1,
+            "isVeg": 1,
+            "price": 31900,
+            "finalPrice": 18900,
+  },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "129786622",
+            "name": "Classic BreadStix + Classic BreadStix",
+            "category": "Flat Menu @189",
+            "description": "Serves 1 | Freshly baked 2 Classic BreadStix ! The perfect pairing with your delicious pizza or on their own as a snack.",
+            "imageId": "bbb62b706156b341665fea94695fa19e",
+            "inStock": 1,
+            "isVeg": 1,
+            "price": 23800,
+            "finalPrice": 18900,
+          },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "114220976",
+            "name": "Spiced Paneer - Personal",
+            "category": "Flat Menu @189",
+            "description": "Serves 1 | Spiced Paneer, crunchy Onion, juicy Tomato & 100% mozzarella cheese, with our classic pan sauce. (PAN Per-276Kcal/100g)",
+            "imageId": "a89yqx09ppwlecyqterp",
+            "inStock": 1,
+            "isVeg": 1,
+            "price": 25900,
+            "finalPrice": 18900,
+       },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "113731425",
+            "name": "Veggie Feast - Personal",
+            "category": "Flat Menu @189",
+            "description": "Serves 1 | Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce. (PAN Per-269Kcal/100g)",
+            "imageId": "cbye9x7wxeopwqvenn7g",
+            "inStock": 1,
+            "isVeg": 1,
+            "price": 25900,
+            "finalPrice": 18900,
+         },
+          "hideRestaurantDetails": true
+        }
+      },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+          "info": {
+            "id": "113731426",
+            "name": "Chicken Sausage - Personal",
+            "category": "Flat Menu @189",
+            "description": "Serves 1 | Pizza topped with Chicken n Cheese Sausages & crunchy Onions, flavourful pan sauce and 100% mozzarella cheese. (PAN Per-310Kcal/100g)",
+            "imageId": "aylqpxx08pltowbzxhd3",
+            "inStock": 1,
+            "price": 25900,
+            "finalPrice": 18900,
+                   },
+          "hideRestaurantDetails": true
+        }
+      },
+    
+   
+  
+    ],
+    "type": "CATEGORY_TYPE_RECOMMENDED"
+  }
       
 
     }
@@ -2406,6 +4883,7 @@ let resList = [
       "name": "The Good Bowl",
       "cloudinaryImageId": "6e04be27387483a7c00444f8e8241108",
       "locality": "Minto Road",
+      "promoted": false,
       "areaName": "GANDHI MARKET",
       "costForTwo": "₹400 for two",
       "cuisines": [
@@ -2421,6 +4899,112 @@ let resList = [
         "deliveryTime": 34,
        
       },
+      "groupCards":[ {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Signature Bowls",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "117026398",
+                  "name": "Mughlai Grilled Chicken Rice Bowl with Omelette",
+                  "category": "Signature Bowls",
+                  "description": "(500 gms)\nMelt-in-mouth reshmi chicken when paired with delicious spicy gravy weaved a food dream like no other. Served with rice, salad and Omelette. (Energy: 1046KCal, Carbohydrates: 75gm, Proteins: 29gm, Fats: 68gm, Sodium: 2179mg)",
+                  "imageId": "c6a8ade41b9d07e04001a5910d145cd8",
+                  "inStock": 1,
+                  "price": 35900,
+              
+              
+                },
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "113759697",
+                  "name": "Paneer Tikka Rice Bowl",
+                  "category": "Signature Bowls",
+                  "description": "(500 gms)\nDrumroll King of the tikkas is here. Soft and spicy paneer tikka in rich spicy gravy served on a bed of rice and salad. (Energy: 943KCal, Carbohydrates: 79gm, Proteins: 21gm, Fats: 59gm, Sodium: 1651mg)",
+                  "imageId": "01d8d863b224e9e09bf1f36bf6917058",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 32900,
+             
+                  "itemPriceStrikeOff": true
+                },
+              
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "117026558",
+                  "name": "Mughlai Falafel Rice Bowl",
+                  "category": "Signature Bowls",
+                  "description": "(500 gms)\nNo rules. All heart! Crispy falafels dropped in a bubbling gravy is where Middle East meets North India. Served with rice and salad. (Energy: 999KCal, Carbohydrates: 99gm, Proteins: 19gm, Fats: 57gm, Sodium: 1911mg)",
+                  "imageId": "fc920468b37050724e282bf7a90c6841",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 32900,
+              
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "79869733",
+                  "name": "Bhuna Chicken Rice Bowl",
+                  "category": "Signature Bowls",
+                  "description": "(500 gms)\nTender chicken cooked in fresh bhuna spices, served with flavoured rice and salad is here to make your day! (Energy: 921KCal, Carbohydrates: 81gm, Proteins: 27gm, Fats: 53gm, Sodium: 1521mg)",
+                  "imageId": "78c8d9577387c2e35d5ee193506a5a2f",
+                  "inStock": 1,
+                  "price": 35900,
+             
+                
+                  "itemPriceStrikeOff": true
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "117026427",
+                  "name": "Creamy Chicken Tikka Rice Bowl",
+                  "category": "Signature Bowls",
+                  "description": "(500 gms)\nYour tatsebuds will say gracias with this bowl made of Creamy smoked tandoori chicken in rich gravy. Served with rice and salad. (Energy: 911KCal, Carbohydrates: 79gm, Proteins: 21gm, Fats: 55gm, Sodium: 2208mg)",
+                  "imageId": "b80d55503878e1b2080048c617c17c15",
+                  "inStock": 1,
+                  "price": 35900,
+               
+                
+               
+                },
+            
+              }
+            },
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "c6a8ade41b9d07e04001a5910d145cd8",
+          "categoryId": "40069597"
+        }
+      }],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -2630,6 +5214,7 @@ let resList = [
       "name": "Gulati",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/22/fc6f52b9-9115-4550-8cce-ea463d97884c_31754.jpg",
       "locality": "Pandara Road",
+      "promoted": false,
       "areaName": "Pandara Road",
       "costForTwo": "₹1000 for two",
       "cuisines": [
@@ -2648,7 +5233,136 @@ let resList = [
         "deliveryTime": 36,
       
       },
-
+      "groupCards":[
+        { 
+          "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Rs 59 Deal of the Day",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "156521978",
+                  "name": "Crispy Veg Burger.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/d4387d28-73ab-45b7-b424-61588863d158_9477217d-7c7a-4834-919a-b9ae7d7cf950.jpg",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 7000,
+                  "finalPrice": 5900,
+                
+                },
+                
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "101196209",
+                  "name": "Veg Makhani Burst Burger.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "Enjoy Makhani Flavour With Mix Veg Patty Topped Up With Onion",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/0c8fa5a6-d138-4ea8-aade-f403b504aaee_e7edfd78-ccd7-4448-951d-36d9f6b3ea67.jpg",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 8000,
+                  "finalPrice": 5900,
+                },
+                
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "156521979",
+                  "name": "Regular Fries.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "The perfect crispy partner.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/19/8ec32a30-ec59-4673-bc5e-16f4b1dc0110_de467db3-09c6-4064-8188-620f259d4541.png_compressed",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 7000,
+                  "finalPrice": 5900,
+               
+                  
+                
+                
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "156521980",
+                  "name": "BK Chicken Pizza Puff.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "\"Crispy puff snack filled with juicy diced chicken, tasty mix veg tomato sauce and mozzarella. Caution: Served Hot.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/8c7c9a04-bbcf-48d9-9157-db014d92c231_b1fb762a-e96d-4360-bf00-398ab95f8fc3.jpg",
+                  "inStock": 1,
+                  "price": 8900,
+                  "finalPrice": 5900,
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "156521981",
+                  "name": "BK Veg Pizza Puff.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "\"Crispy savoury pastry with a filling of tomato sauce with corn, carrots, bell peppers, peas and mozzarella. Caution: Served Hot.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/29/ee5f25e0-5f74-4daf-908a-38f6c8c23f14_35543521-018a-41fc-b967-92858b42c608.jpg",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 5900,
+               
+                   },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "102007443",
+                  "name": "Veggie Strips - 5 Pcs.",
+                  "category": "Rs 59 Deal of the Day",
+                  "description": "Vegetarian's favourite finger food.",
+                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/aeac450c-d789-4c00-a593-05e352a5b325_4eab783e-7b7d-4401-b8e4-64b1fba9bbf5.jpg",
+                  "inStock": 1,
+                  "isVeg": 1,
+                  "price": 5900,    
+                },
+               
+              }
+            }
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "FOOD_CATALOG/IMAGES/CMS/2024/4/19/d4387d28-73ab-45b7-b424-61588863d158_9477217d-7c7a-4834-919a-b9ae7d7cf950.jpg",
+          "categoryId": "55625952"
+        }
+     }
+       ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
         "title": "Recommended",
@@ -2832,6 +5546,7 @@ let resList = [
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/26/23944cbd-a4db-4e3e-85ce-73b0151c6f59_875893.jpg",
     
       "areaName": "Khan Market",
+      "promoted": false,
       "costForTwo": "₹600 for two",
       "cuisines": [
         "Cafe",
@@ -2846,6 +5561,81 @@ let resList = [
         "deliveryTime": 28,
     
       },
+      "groupCards":[   {
+        "card": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+      "title": "Non Veg Salads",
+      "itemCards": [
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "81458828",
+              "name": "Roasted Chicken Salad",
+              "category": "GOURMET SALAD MEALS",
+              "description": "Tender roasted chicken breast, salad greens, sweet bell peppers, black olives, onions, honey Dijon-roasted peppers dressing & bread",
+              "imageId": "17e4a340c1af40d7b4aba3c4e803d52a",
+              "inStock": 1,
+              "price": 31900,
+              "finalPrice": 30900,
+           
+           
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "81458814",
+              "name": "Chicken Pesto Pasta Salad",
+              "category": "GOURMET SALAD MEALS",
+              "description": "Whole-wheat pasta, assorted greens, roasted chicken breast, broccoli, sun-dried tomatoes, black olives, sweet basil, yogurt-pesto dressing & bread",
+              "imageId": "f4a4450c085a0e6933784ea2a5f9fe59",
+              "inStock": 1,
+              "price": 31900,
+         
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "81458832",
+              "name": "Blackened Chicken, Avocado & Orange Salad",
+              "category": "GOURMET SALAD MEALS",
+              "description": "Exotic salad of salad greens, spiced chicken breast, Hass avocado, Orange, mint, coriander, shallots, red chili, mustard honey vinaigrette & bread",
+              "imageId": "9f17883ced8cd7c3469f8fff13f5fcff",
+              "inStock": 1,
+              "price": 37900,
+         
+            
+            
+            },
+            "analytics": {
+              
+            },
+            "hideRestaurantDetails": true
+          }
+        },
+      
+      ],
+      "subtitleSuffix": {
+        
+      },
+      "categoryId": "53453671"
+    },
+  }],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -3018,6 +5808,7 @@ let resList = [
       "name": "Nizam's Kathi Kabab",
       "cloudinaryImageId": "sacbbtypo5gbiu7jolye",
       "areaName": "Connaught Place",
+      "promoted": false,
       "costForTwo": "₹500 for two",
       "cuisines": [
         "Mughlai",
@@ -3029,6 +5820,105 @@ let resList = [
         "deliveryTime": 34,
        
       },
+      "groupCards":[{
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+          "title": "Curries",
+          "itemCards": [
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "80614060",
+                  "name": "Ambersari Keema Meat",
+                  "category": "Curries",
+                  "inStock": 1,
+                  "price": 57143,
+               
+                
+                },
+             
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "80614072",
+                  "name": "Mutton Nihari",
+                  "category": "Curries",
+                  "inStock": 1,
+                  "price": 52381,
+            
+            
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "80614070",
+                  "name": "Keema Kaleji Masala",
+                  "category": "Curries",
+                  "inStock": 1,
+                  "price": 47619,
+      
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "79227641",
+                  "name": "Chicken Rara",
+                  "category": "Curries",
+                  "inStock": 1,
+                  "price": 47619,
+             
+               
+                },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+            {
+              "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                  "id": "13857061",
+                  "name": "Chicken Keema Egg Masala",
+                  "category": "Curries",
+                  "inStock": 1,
+                  "price": 38095,
+                    },
+                "analytics": {
+                  
+                },
+                "hideRestaurantDetails": true
+              }
+            },
+         
+          ],
+          "subtitleSuffix": {
+            
+          },
+          "image": "a54ff4fa66230d1210b402b06b565fd7",
+          "categoryId": "33334413"
+        }
+      }],
+        
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Kathi Kabab Rolls",
@@ -3253,6 +6143,7 @@ let resList = [
       "cloudinaryImageId": "f56b00cfac762606f7145d37acff5367",
      
       "areaName": "Connaught Place",
+      "promoted": false,
       "costForTwo": "₹350 for two",
       "cuisines": [
         "South Indian",
@@ -3263,6 +6154,250 @@ let resList = [
       "sla": {
         "deliveryTime": 31, 
       },
+      "groupCards":[
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Karnataka Donne Biryani",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420172",
+                    "name": "Karnataka Donne Chicken Fry Piece Biryani",
+                    "category": "Karnataka Donne Biryani",
+                    "imageId": "05d03b0fc96952f1f1800cc024239104",
+                    "inStock": 1,
+                    "price": 38900,
+              
+               
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420171",
+                    "name": "Karnataka Donne Chicken Biryani",
+                    "category": "Karnataka Donne Biryani",
+                    "imageId": "f54632fd00e31427f8dfdbb122871ecb",
+                    "inStock": 1,
+                    "price": 34900,
+              
+               
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420175",
+                    "name": "Karnataka Donne Bheemeshwara Special  Chicken Boneless Biryani",
+                    "category": "Karnataka Donne Biryani",
+                    "imageId": "2680f4158ed0198c0cc2ea275b314b1a",
+                    "inStock": 1,
+                    "price": 41900,
+               
+                
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420173",
+                    "name": "Karnataka Donne Mutton Fry Piece Biryani",
+                    "category": "Karnataka Donne Biryani",
+                    "imageId": "19363e93cc07ef7cb13310076e432e79",
+                    "inStock": 1,
+                    "price": 44900,
+             
+               
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "135911444",
+                    "name": "Karnataka Donne Kabab Biryani (6 Pcs)",
+                    "category": "Karnataka Donne Biryani",
+                    "imageId": "b4ea577d7ec12b9ea9144ae44059c948",
+                    "inStock": 1,
+                    "price": 41900,
+               
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420174",
+                    "name": "Karnataka Donne Chicken Joint Fry Biryani",
+                    "category": "Karnataka Donne Biryani",
+                    "inStock": 1,
+                    "price": 41900,
+                
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "135911443",
+                    "name": "Karnataka Donne Lollipop Biryani (4 Pcs)",
+                    "category": "Karnataka Donne Biryani",
+                    "inStock": 1,
+                    "price": 41900,
+                      },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              }
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "05d03b0fc96952f1f1800cc024239104",
+            "categoryId": "45644644"
+          }
+        },{
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Andhra Biryani",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420166",
+                    "name": "Andhra Chicken Biryani",
+                    "category": "Andhra Biryani",
+                    "imageId": "471895857c5cd52e6ee9ffbba5c36c3f",
+                    "inStock": 1,
+                    "price": 34900,
+                     },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420168",
+                    "name": "Andhra Mutton Fry Piece Biryani",
+                    "category": "Andhra Biryani",
+                    "imageId": "2146a672933ed488e7d8bd8f7539cdfd",
+                    "inStock": 1,
+                    "price": 44900,
+              
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420167",
+                    "name": "Andhra Chicken Fry Piece Biryani",
+                    "category": "Andhra Biryani",
+                    "imageId": "0b88db57a7954cc10f07eee782765acd",
+                    "inStock": 1,
+                    "price": 38900,
+              
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420169",
+                    "name": "Andhra Biryani Chicken Joint Fry Biryani",
+                    "category": "Andhra Biryani",
+                    "imageId": "d39731f1d98b326964ff41671f07de59",
+                    "inStock": 1,
+                    "price": 41900,
+                 
+                
+                  },
+                 
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "134420170",
+                    "name": "Andhra Bheemeshwara Special Chicken Boneless Biryani",
+                    "category": "Andhra Biryani",
+                    "imageId": "de1b56232123b19980d56f9f488a9ecc",
+                    "inStock": 1,
+                    "price": 41900,
+              
+               
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              }
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "471895857c5cd52e6ee9ffbba5c36c3f",
+            "categoryId": "45644643"
+          }
+        }
+      ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Lunch / Dinner Delicacies",
@@ -3486,7 +6621,7 @@ let resList = [
       "id": "58217",
       "name": "Theobroma",
       "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/22/e6e85196-5078-454f-9994-0fcfd88015e9_58217.jpg",
-    
+    "promoted": false,
       "areaName": "Connaught Place",
       "costForTwo": "₹400 for two",
       "cuisines": [
@@ -3499,6 +6634,152 @@ let resList = [
         "deliveryTime": 34,
        
       },
+      "groupCards":[   
+        {
+        "card":{
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+        "title": "Cakes & Pastries",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787695",
+                "name": "Valentine's Chocolate & Strawberry Bento Cake (300g)",
+                "category": "Valentine's Collection",
+                "description": "Layers of creamy chocolate truffle, strawberry filling and moist chocolate sponge, decorated with red and milk chocolate hearts on top.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/6/907d51f8-1dfa-4f6c-9c6c-a32b94c479c5_2d18da56-b4ce-452b-b2a7-53a1780c332c.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 34500,
+             
+              
+              
+               
+              },
+            
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787696",
+                "name": "Valentine's Blueberry & Cream Cake (450g)",
+                "category": "Valentine's Collection",
+                "description": "Layers of fresh cream and soft vanilla cake topped with blueberry compote and decorated with a Valentine's special decoration in white chocolate.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/6/fe4b189e-0929-4619-b91a-0606ad33ceca_a5a4d4e2-c2ad-4543-ba84-515d88397b6b.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 47500,
+               
+               
+           
+             
+              },
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "79443042",
+                "name": "Red Velvet Cake (1/2kg)",
+                "category": "Valentine's Collection",
+                "description": "Red velvet sponge layered with cream cheese frosting enhanced with lime juice.",
+                "imageId": "cfab1cfd6fefa5db5bbdd47ff10db686",
+                "inStock": 1,
+                "price": 67500,
+             
+             
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787701",
+                "name": "Strawberry & Fresh Cream Cake",
+                "category": "Valentine's Collection",
+                "description": "Layers of strawberry jam, diplomat cream and soft vanilla cake covered with flaked almonds and topped with fresh strawberries.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/7/1590fd7d-5127-4b9f-8bbc-92e2ff10adce_a89b0570-4e4c-497d-95c6-8f16ca545f0b.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 72500,
+            
+             
+              },
+           
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787703",
+                "name": "Strawberry Cheesecake 550g.",
+                "category": "Valentine's Collection",
+                "description": "Cheesecake with a buttery biscuit base, topped with fresh strawberries and fresh cream and a strawberry glaze.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/7/34c21e29-8a86-4c12-a778-cdc733b3a587_5ba7fc55-9520-4db7-bc9b-f0787e12e702.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 87500,
+               
+            
+               
+              },
+          
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787705",
+                "name": "Red Velvet Pastry (1 Piece)",
+                "category": "Valentine's Collection",
+                "description": "Red velvet sponge layered with cream cheese frosting enhanced with lime juice.",
+                "imageId": "m6zcb9uitpu4b3rtcl1w",
+                "inStock": 1,
+                "price": 14000,
+            
+               
+              },
+             
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "163787697",
+                "name": "Strawberry & Fresh Cream Pastry",
+                "category": "Valentine's Collection",
+                "description": "Layers of strawberry jam, fresh cream and soft vanilla cake topped with fresh strawberries.",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/7/bdffc826-ddf5-451e-8b85-5c35994489d0_42d3fe5c-1059-480a-8964-21aca61c0bb7.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 17500,
+            
+              
+               
+               
+                "itemPriceStrikeOff": true
+              },
+              
+            }
+          }
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "58485520"
+      },
+    }
+   ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -3706,7 +6987,7 @@ let resList = [
       "id": "378311",
       "name": "Blue Tokai Coffee Roasters",
       "cloudinaryImageId": "1a0521375f07155eda2f1ed263206831",
-    
+    "promoted": false,
       "areaName": "Connaught Place",
       "costForTwo": "₹600 for two",
       "cuisines": [
@@ -3720,6 +7001,285 @@ let resList = [
         "deliveryTime": 29,
    
       },
+      "groupCards":[ 
+   {
+    "card": {
+         "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+        "title": "Cold Coffee",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172739",
+                "name": "Iced Americano",
+                "category": "Brewed Coffee",
+                "description": "220 ml | Espresso with cold water over ice. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 22 kcal, Protein: 1.126g, Carbohydrates: 4.19g, Fiber: 0g, Fat: 0.22g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/8bfc4330-37dd-4681-9711-24a228eff5e8_4631645f-0893-4faa-8901-bc350894dd0c.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 22000,
+               
+             
+               
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172737",
+                "name": "Iced Espresso",
+                "category": "Brewed Coffee",
+                "description": "100 ml | Espresso poured over ice. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 20 kcal, Protein: 1.12g, Carbohydrates: 3.72g, Fiber: 0g, Fat: 0.2g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/b4da0536-1121-4d30-a098-f142894effa6_e1eede25-ce21-4721-86bc-84d4e9f0afd4.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 20000,
+                "variants": {
+                  
+                },
+                "variantsV2": {
+                  
+                },
+                "addons": [
+                  {
+                    "groupId": "144888102",
+                    "groupName": "Choice  Of Milk",
+                    "choices": [
+                      {
+                        "id": "122145900",
+                        "name": "Better Bet - Plant-based Milk ( Vegan)",
+                        "price": 1905,
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "isEnabled": 1
+                      },
+                      {
+                        "id": "116255577",
+                        "name": "Lactose-free Milk (Amul)",
+                        "price": 1905,
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "isEnabled": 1
+                      },
+                      {
+                        "id": "127396735",
+                        "name": "Regular Milk",
+                        "price": 1905,
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "isEnabled": 1
+                      }
+                    ],
+                    "maxAddons": 1,
+                    "maxFreeAddons": -1
+                  }
+                ],
+                "itemAttribute": {
+                  "vegClassifier": "VEG",
+                  "portionSize": "100 ml"
+                },
+                "ribbon": {
+                  
+                },
+                "type": "ITEM",
+                "itemBadge": {
+                  
+                },
+                "badgesV2": {
+                  
+                },
+                "ratings": {
+                  "aggregatedRating": {
+                    
+                  }
+                }
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172741",
+                "name": "Iced Latte",
+                "category": "Brewed Coffee",
+                "description": "315 ml | Espresso poured over cold milk and ice. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 136 kcal, Protein: 6.48g, Carbohydrates: 10.13g, Fiber: 0g, Fat: 7.88g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/68c29dea-baba-4e3d-89b1-982de326e30f_dac3051b-249b-4b77-9636-19b7928e9225.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 26000,
+             
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172744",
+                "name": "Cold Brew With Milk",
+                "category": "Brewed Coffee",
+                "description": "300 ml | For people who like a balance of cold coffee and cold brew, this delicious latte style cold brew has notes of creamy milk chocolate, nuts and caramel.  [Energy: 113 kcal, Protein: 4.59g, Carbohydrates: 15.12g, Fiber: 0g, Fat: 3.84g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/ff95a46f-a520-419f-84aa-c43ec00cd71f_778fb9b1-e7c4-4cf9-94a9-035da2b444f0.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 23000,
+                },
+              
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172740",
+                "name": "Vietnamese Style Iced Coffee",
+                "category": "Brewed Coffee",
+                "description": "300 ml | Our take on the vietnamese classic. Concentrated dark cold brew poured over ice, topped with sweetened condensed milk. (brewed using a specially curated dark roasted dhak blend - made with some of india's highest scoring coffee beans. ) [Energy: 260 kcal, Protein: 8.16g, Carbohydrates: 44.46g, Fiber: 0g, Fat: 5.4g]",
+                "imageId": "330ba73551c112d357e5987e144dd009",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 26000,
+              
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172742",
+                "name": "Iced Cappuccino",
+                "category": "Brewed Coffee",
+                "description": "280 ml | Espresso blended with ice, milk and date syrup. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 172 kcal, Protein: 5.26g, Carbohydrates: 24.69g, Fiber: 1g, Fat: 5.91g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/1ed63d57-511c-46f8-b1f5-d867763f9ce0_c395bff6-72e6-4040-9a8d-055054566b49.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 26500,
+                },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+
+         
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "46899193"
+      },
+    },
+      {
+        "card": {
+          "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+        "title": "Hot Coffee",
+        "itemCards": [
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172729",
+                "name": "Espresso",
+                "category": "Brewed Coffee",
+                "description": "40 ml | Concentrated dose of coffee brewed under intense pressure. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 20 kcal, Protein: 1.12g, Carbohydrates: 3.72g, Fiber: 0g, Fat: 0.2g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/8a9ed818-6bd6-45a2-9fc4-0ae72aa0805b_b71c8852-171a-4157-b1ed-ac5f6c111880.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 19000, },
+              
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172734",
+                "name": "Americano",
+                "category": "Brewed Coffee",
+                "description": "200 ml | Espresso with hot water. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 23 kcal, Protein: 1.31g, Carbohydrates: 4.37g, Fiber: 0g, Fat: 0.23g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/a5374598-5e2a-4272-97e4-f33718bce005_c06d8ecc-7d92-413e-89d1-5dc690a447f4.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 21000,
+         
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172728",
+                "name": "Cortado",
+                "category": "Brewed Coffee",
+                "description": "100 ml | Espresso with 60ml of textured milk. (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 63 kcal, Protein: 3.08g, Carbohydrates: 6.68g, Fiber: 0g, Fat: 2.89g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/cea7e364-5d83-4f79-aeb9-5fe057bf2a8c_220b5baa-f80c-4b9d-a3f9-bfa3ca80d980.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 22000,
+                },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+      
+          {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+              "info": {
+                "id": "137172736",
+                "name": "Cappuccino",
+                "category": "Brewed Coffee",
+                "description": "230 ml | Espresso with equal parts hot milk and steamed microfoam. (300 ml) (brewed using our finest house blend - silver oak cafe blend - made with some of india's highest scoring coffee beans. ) [Energy: 146 kcal, Protein: 6.92g, Carbohydrates: 10.79g, Fiber: 0g, Fat: 8.52g]",
+                "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/4/e48948d1-621e-4ff0-a1fc-51e0acf559ee_57e4753d-cd84-433f-956c-84f6c4469e51.jpg",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 23000,
+              },
+              "analytics": {
+                
+              },
+              "hideRestaurantDetails": true
+            }
+          },
+         
+        ],
+        "subtitleSuffix": {
+          
+        },
+        "categoryId": "46899192"
+      }
+    },
+   ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",
@@ -3926,7 +7486,7 @@ let resList = [
       "id": "302684",
       "name": "Barbeque Nation",
       "cloudinaryImageId": "v4ryntwbvxuogbwfg3kj",
-   
+      "promoted": true,
       "areaName": "Connaught Place",
       "costForTwo": "₹600 for two",
       "cuisines": [
@@ -3941,6 +7501,288 @@ let resList = [
       "sla": {
         "deliveryTime": 36,
       },
+      "groupCards":[
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Kebabs Platter and Starters",
+            "itemCards": [
+           
+           
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374486",
+                    "name": "Tandoori Tangdi (3Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Chicken Drumstick marinated in Indian spices and hung curd cooked in clay oven -Tandoor and served with Salad mix and Mint Chutney.  Tangdi Kabab for any occasion.",
+                    "imageId": "43c91a42d76e180ce9b3a6f9c3c19b91",
+                    "inStock": 1,
+                    "price": 35900,
+                  
+                 
+                    
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "77902529",
+                    "name": "Chicken Seekh Kebab",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Succulent kebabs (6Nos) made from tender meat, masalas and seasoning,grilled on skewers till perfection. Served with Mint Chutney &Lacha Onions. Kcal - 583",
+                    "imageId": "0ce722ff34632c00e23e3c70a8fb4217",
+                    "inStock": 1,
+                    "price": 25900,
+                 
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374433",
+                    "name": "Tandoori Paneer Tikka (8 Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Cottage Cheese marinated in Indian spices and hung curd cooked in clay oven -Tandoor and served with Salad mix and Mint Chutney. Kcal - 753",
+                    "imageId": "a19b443af1f23cb3317c82648a66f954",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 33900,
+                   
+                  
+                  
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "61374461",
+                    "name": "Chicken Tikka (Boneless) (8 Pcs)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Boneless Chicken chunks marinated in  authentic tikka masala and grilled on skewers, one of India's most popular dishes. Kcal - 615",
+                    "imageId": "bcirausndatlpylzwk4l",
+                    "inStock": 1,
+                    "price": 36900,
+                  
+                  
+                    
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "78440312",
+                    "name": "Mutton Seekh Kebab",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Scrumptious, full of juices & flavors- These mutton mince kebabs (6Nos) cooked with Indian aromatic spices are perfect as a starter. Kcal - 450",
+                    "imageId": "ca10f7eac804d7322f2ad7781acf843e",
+                    "inStock": 1,
+                    "price": 34900,
+                
+                  
+              
+                    
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "144200068",
+                    "name": "Steamed Masala Corn (Butter)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Tender corn kernels infused with creamy butter. Topped with a finely chopped onion, fresh coriander, and green chili. Served with Cajun Seasoning.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/b7901d42-4b00-4825-8f5a-ae33a6a61788_e7793752-3d24-4799-b8eb-52b97eebbbac.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 20900,
+                  
+                 
+                  },
+              
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "33767443",
+                    "name": "Tandoori Mushroom",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Button Mushrooms marinated with tandoori spice , grilled to golden brown perfection and brushed with butter. Kcal - 182",
+                    "imageId": "gijzyjxsc2dgcrysk2px",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 29900,
+                 
+                   
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "144200069",
+                    "name": "Steamed Masala Corn (Plain)",
+                    "category": "Kebabs Platter and Starters",
+                    "description": "Serves 1 | Tender corn kernels topped with a finely chopped onion, fresh coriander, and green chili. Served with Cajun Seasoning.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/29/cb9bd53a-9628-4075-9abc-931b070e4826_4a63c6a0-37dd-4207-a03a-43b88bd6ebd0.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 18900,
+                
+                  
+                  },
+                
+                  "hideRestaurantDetails": true
+                }
+              }
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "cxnpmaw7shz2w1t9mvkf",
+            "categoryId": "12080272"
+          }
+        },
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Barbeque in a Box (Serves 2-3)",
+            "itemCards": [
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "101283028",
+                    "name": "Barbeque In A Box (Veg) Premium",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Six Starters] - Tandoori Paneer Tikka (4 Pcs) + Churrasco Pineapple (6 Pcs) + Veg Kebabs (6 Pcs) + Veg Rolls (6 Pcs) + Cheese Triangle (6 Pcs) + Assorted Grilled Corn & Veg (2 Nos) [Main Course] - Paneer Butter Masala + Mix Veg + Dal Makhani + Veg Dum Biryani + Whole Wheat Paratha (3 Nos) [Three Desserts] Angoori Jamun (8 Pcs) + Moong Dal Halwa + Brownie. Accompanied with Mint Chutney, Salan, Dips & Salad. Barbeque Nation buffet served at home.",
+                    "imageId": "ms4gatxolkuncr145vbz",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 101900,
+                 
+                  
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "101283027",
+                    "name": "Barbeque in a Box (Non Veg Overload)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Five Starters] Chilly Garlic Prawns (6 Pcs) + Chicken Tikka (4 Pcs) + Tandoori Tangdi (2 Pcs) + Chicken Wings (6 Pcs) + Fish Tikka (6 Pcs) + [Main Course] Butter Chicken Masala + Mutton Rogan Josh + Egg Curry + Chicken Dum Biryani + Whole Wheat Paratha (3 Pcs) [Three Desserts] Angoori Gulab Jamun (8 Nos) + Brownie + Moong Dal Halwa. Accompanied with Mint Chutney, Salan, Dips & Salad.",
+                    "imageId": "suogu1jyv51m2eg7eirk",
+                    "inStock": 1,
+                    "price": 131900,
+                 
+                   
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "72240465",
+                    "name": "Barbeque in a Box (Mutton Biryani Overload)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | Mutton Dum Biryani (3 Portions) + Tandoori Tangdi (2 Pcs) + Chicken Tikka (4 Pcs) + Fish Tikka (6 Pcs) + Chilly Garlic Prawns(6 Pcs) + Chicken Wings (6 Pcs) + Angoori Gulab Jamun (8 Pcs) + Brownie + Moong Dal Halwa. Accompanied with Mint Chutney, Raita, Salan, Dips & Salad. Relish biryani of Succulent mutton pieces marinated in freshly roasted spices and cooked with aromatic long grain Basmati rice in the Dum style. Earlier called as Biryanis and Kebabs Box (Mutton) Premium",
+                    "imageId": "40fe28af93d3039bf6acdd47dc5b95ac",
+                    "inStock": 1,
+                    "price": 131900,
+                  
+                   
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+              {
+                "card": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                  "info": {
+                    "id": "100353156",
+                    "name": "Barbeque in a Box (Non Veg) Premium (With Prawns and Mutton)",
+                    "category": "Barbeque in a Box (Serves 2-3)",
+                    "description": "Serves 3 | [Six Starters]- Chilly Garlic Prawns (6 Pcs) + Chicken Tikka (4 Pcs) + Chicken Wings (6 Pcs) + Fish Tikka (6 Pcs) + Veg Kebabs (6 Pcs) + Veg Rolls (6 Pcs) [Main Course] - Butter Chicken + Mutton Rogan Josh + Dal Makhani + Chicken Dum Biryani + Whole Wheat Paratha (3 Nos) [Three Desserts] - Angoori Jamun (8 Pcs)+ Moong Dal Halwa + Brownie - Accompanied with Mint Chutney, Salan, Dips & Salad. A premium Barbeque Nation buffet served at home.",
+                    "imageId": "e2ewnaxscaxstws68p4o",
+                    "inStock": 1,
+                    "price": 126900,
+                 
+                  
+                 
+                  },
+                  "analytics": {
+                    
+                  },
+                  "hideRestaurantDetails": true
+                }
+              },
+             
+            ],
+            "subtitleSuffix": {
+              
+            },
+            "image": "ms4gatxolkuncr145vbz",
+            "categoryId": "32262108"
+          }
+        }
+
+      ],
       "card": {
         "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
         "title": "Recommended",

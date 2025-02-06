@@ -11,6 +11,8 @@ import Error from "./components/Error";
 import ResturantMenu from "./components/ResturantMenu";
 //import Grocery from "./components/Grocery";
 
+
+
 const Grocery = lazy(()=>import("./components/Grocery")) // lazy loading of the grocery component
 // lazy loading is a technique in which we load the component only when it is required and not at the start of the application which will help in reducing the load time of the application
 
@@ -19,7 +21,7 @@ const About = lazy(()=>import("./components/about")) // lazy loading of the abou
 const AppLayout = () => {
      
         return (
-                <div className = "app">
+                <div className = "app overflow-x-hidden">
                 <Header/>
                 <Outlet/>
                 {/* this outlet is component provide by react router and it will be replace by component according to the path provide in the url 
@@ -32,7 +34,7 @@ const appRouter = createBrowserRouter([
         {
                 path:"/",
                 element:<AppLayout/>,
-                errorElement: <Error/>,
+                
                 children : [
                         {
                                 path:"/",
@@ -53,8 +55,10 @@ const appRouter = createBrowserRouter([
                         {
                                 path:"/resturant/:resId",
                                 element:<ResturantMenu/>
+                                
                         }
-                ]
+                ],
+                errorElement: <Error/>
         }
       
 ])

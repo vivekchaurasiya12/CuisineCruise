@@ -26,3 +26,4 @@ import component from "path";
 
 export const component/url_variable
 import {component /url_variable} from "path"'
+
