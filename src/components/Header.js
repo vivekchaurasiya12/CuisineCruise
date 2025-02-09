@@ -1,15 +1,15 @@
-//Header
-
 import {LOGO_URL} from "../utils/constants";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {Link} from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 
 const Header = () =>{
         let [btnNameReact,setBtnNameReact] = useState("Login");
         const onlineStatus = useOnlineStatus(); // custom hooks used here to check the online status of the user
-        
+        const data = useContext(UserContext);
+        console.log(data);
          
     return (
         <div className="flex justify-between items-center border-b-2 border-gray-200 shadow-md px-6 py-4">
@@ -47,6 +47,9 @@ const Header = () =>{
             >
               {btnNameReact}
             </button>
+            <li className="hover:text-blue-600 transition duration-300 cursor-pointer hover:scale-105">
+              {data.loggedInUser}
+            </li>
           </ul>
       
           {/* Mobile Menu (Hamburger Icon) */}
