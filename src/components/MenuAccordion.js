@@ -1,8 +1,15 @@
 import Accordion from "./Accordion"; // Import the Accordion component
 import { IMAGE_URL } from "../utils/constants";
+import { addItem } from "../utils/cartSlice";
+import { useDispatch } from "react-redux";
 
 const MenuAccordion = ({ groupCard }) => {
  // console.log(groupCard);
+    const dispatch  = useDispatch();//provided by react-redux
+    const handleAddItem = (item)=>{
+      //when i click on add item so i need to dispatch an action so we need dispatch so we use hooks usedispatch hooks
+   dispatch(addItem(item));
+    }
   return (
     <Accordion title={groupCard.card.title} count={groupCard.card.itemCards.length}>
       <ul className="space-y-6">
@@ -24,7 +31,10 @@ const MenuAccordion = ({ groupCard }) => {
                 alt={item.card.info.name}
                 className="w-32 h-32 object-cover rounded-md"
               />
-              <button className=" absolute bottom-2 right-8  text-white px-3 py-1 rounded-md text-sm font-serif bg-gradient-to-r from-green-500 to-green-600 hover:bg-green-950 transition-colors duration-300">Add +</button>
+             <button
+  className="absolute bottom-2 right-8 text-white px-3 py-1 rounded-md text-sm font-serif bg-gradient-to-r from-green-500 to-green-600 
+             active:from-red-400 active:to-red-700
+             transition-all duration-300 "onClick={() => handleAddItem(item)}>Add +</button>
             </div>
           </li>
         ))}

@@ -10,6 +10,10 @@ import Error from "./components/Error";
 //import Shimmer from "./components/Shimmer";
 import ResturantMenu from "./components/ResturantMenu";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux"; // Provider is provided by react-redux && Provides integration between Redux and React.
+import appStore from "./utils/appStore";
+import Cart from "./components/Cart";
+
 
 //import Grocery from "./components/Grocery";
 
@@ -33,6 +37,8 @@ const AppLayout = () => {
         },[])
      
         return (
+                <Provider store = {appStore} >   
+                {/* We wrapped all our app inside Provider &&  The <Provider> component makes the Redux store available throughout the app. */}
                 <UserContext.Provider value = {{loggedInUser : userName,setUserName}} >
                 <div className = "app overflow-x-hidden">
                 {/* <UserContext.Provider value = {{loggedInUser : "Shubham"}}> */}
@@ -44,6 +50,7 @@ const AppLayout = () => {
                 <Footer/>
                 </div>
                 </UserContext.Provider>
+                </Provider>
         )
 }
 const appRouter = createBrowserRouter([
@@ -71,6 +78,11 @@ const appRouter = createBrowserRouter([
                         {
                                 path:"/resturant/:resId",
                                 element:<ResturantMenu/>
+                                
+                        },
+                        {
+                                path:"/cart",
+                                element:<Cart/>
                                 
                         }
                 ],

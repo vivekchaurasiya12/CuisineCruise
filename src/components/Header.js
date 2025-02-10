@@ -3,13 +3,18 @@ import { useContext, useState } from "react";
 import {Link} from "react-router-dom"
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 
 const Header = () =>{
         let [btnNameReact,setBtnNameReact] = useState("Login");
         const onlineStatus = useOnlineStatus(); // custom hooks used here to check the online status of the user
         const data = useContext(UserContext);
-        console.log(data);
+       // console.log(data);
+
+       //Accessing the store using selector which is a hook provided by react-redux which helps to access the data present inside store;
+       const cartItems = useSelector((store)=> store.cart.items);
+       console.log(cartItems);
          
     return (
         <div className="flex justify-between items-center border-b-2 border-gray-200 shadow-md px-6 py-4">
@@ -39,7 +44,9 @@ const Header = () =>{
               <Link to="/grocery">Grocery</Link>
             </li>
             <li className="hover:text-blue-600 transition duration-300 cursor-pointer hover:scale-105">
-              Cart
+              <Link to="/cart">
+              Cart {cartItems.length}
+              </Link>
             </li>
             <button
               className="px-5 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 font-serif"
