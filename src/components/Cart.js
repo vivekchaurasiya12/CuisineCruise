@@ -9,6 +9,7 @@ const Cart = () => {
   // const store = useSelector((store)=>store); 1. this is accessing the whole store which decrease the efficiency
   // cosnt cartItems = store.Cart.itmes;        2. becaz suppoze there is update in login info then here we dont required but this here we uses whole store which is not required we need only cart info.
  // console.log(cartItems);
+ 
   const dispatch = useDispatch();
   const handleClearCart = ()=>{
     dispatch(clearCart());
