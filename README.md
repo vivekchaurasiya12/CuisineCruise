@@ -27,3 +27,18 @@ import component from "path";
 export const component/url_variable
 import {component /url_variable} from "path"'
 
+
+# Setup of testing 
+ - install react testing library
+ - install jest
+ - install babel depedencies if project have babel
+ - cofigure babel
+ - configure parcel config file to disable default the babel transpilation
+ - jest configuration by npx jest --init
+ - install jsdom library
+ - Install @babel/preset-react by npm i -D @babel/preset-react
+ - configure the babel.cofig.js by including @babel/preset-react in array
+ - install jest-dom by npm install --save-dev @testing-library/jest-dom to 
+   use the function .toBeInTheDocument(), .toHaveTextContent()
+
+

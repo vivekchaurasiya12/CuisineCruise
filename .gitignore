@@ -1,3 +1,6 @@
 node_modules/
 dist/
 .parcel-cache/
+coverage/
+sum.js
+sum.test.js
