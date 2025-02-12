@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import { IMAGE_URL } from "../utils/constants";
 
 const ResturantCard = ({ resData }) => {
-    return (
+   // console.log(resData);
+  return (
         <Link to={`/resturant/${resData.id}`} className="resturant-card-link">
          <div className="resturant-card p-4 bg-white rounded-xl shadow-lg w-80 min-h-100 transition-transform transform hover:scale-105 hover:shadow-2xl duration-300 ">
   <img
