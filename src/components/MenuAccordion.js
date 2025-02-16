@@ -1,16 +1,31 @@
 import Accordion from "./Accordion"; // Import the Accordion component
 import { IMAGE_URL } from "../utils/constants";
 import { addItem } from "../utils/cartSlice";
-import { useDispatch } from "react-redux";
+import { useDispatch ,useSelector} from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useParams } from "react-router-dom";
 
 const MenuAccordion = ({ groupCard }) => {
  // console.log(groupCard);
+   const { resId } = useParams(); // Get restaurant ID from the URL
+  // console.log("Restaurant id",resId);
     const dispatch  = useDispatch();//provided by react-redux
-    const handleAddItem = (item)=>{
-      //when i click on add item so i need to dispatch an action so we need dispatch so we use hooks usedispatch hooks
-   dispatch(addItem(item));
-    }
+    const cartItems = useSelector((store) => store.cart.items);
+const currentRestaurantId = useSelector((store) => store.cart.restaurantId); // Get the restaurantId from the store
+const handleAddItem = (item) => {
+  // Check if the cart is empty or if the item is from the same restaurant
+  if (cartItems.length === 0 || currentRestaurantId === resId) {
+    dispatch(addItem({ ...item, restaurantId: resId }));
+  } else {
+    toast.error("Clear cart first before adding items from a different restaurant.");
+  }
+}
+
+    
   return (
+    <>
+    <ToastContainer />
     <Accordion title={groupCard.card.title} count={groupCard.card.itemCards.length}>
       <ul className="space-y-6">
         {groupCard.card.itemCards.map((item) => (
@@ -40,6 +55,7 @@ const MenuAccordion = ({ groupCard }) => {
         ))}
       </ul>
     </Accordion>
+    </>
   );
 };
 

@@ -88,7 +88,7 @@ let resList = [
                     "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/4/375ae4df-de00-4235-97c5-3de32ebd969c_c7ea4a4e-86a9-467b-a42d-13e058670d28.jpg",
                     "inStock": 1,
                     "isVeg": 1,"price": 39700,
-            },
+                     },
                   "hideRestaurantDetails": true
                 }
               },
@@ -4599,6 +4599,7 @@ let resList = [
                         "description": "A Universal Favourite, Tender, Roasted Chicken Pieces Simmered In A Satin Smooth Tomato & Creamy Gravy.",
                         "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/19/427f8e83-fe7c-4888-8b83-68128ab76a44_669b977f-172f-483e-87bd-75b8233dd5c1.jpg",
                         "inStock": 1,
+                        "price": 45500,
                         },
                       "hideRestaurantDetails": true
                     }
@@ -4628,6 +4629,7 @@ let resList = [
                         "description": "[Spicy] Tender Pieces Of Chicken Cooked In An Abundance Of Tomatoes, Capsicum, Fresh Herbs & Spices.",
                         "imageId": "mr55m1sdejick6ot3myl",
                         "inStock": 1,
+                        "price": 45500,
                         },
                       "hideRestaurantDetails": true
                     }
