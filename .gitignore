@@ -4,4 +4,4 @@ dist/
 coverage/
 sum.js
 sum.test.js
-
+.env

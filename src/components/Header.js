@@ -43,11 +43,12 @@ const Header = () =>{
             <li className="hover:text-blue-600 transition duration-300 hover:scale-105">
               <Link to="/grocery">Grocery</Link>
             </li>
-            <li className="hover:text-blue-600 transition duration-300 cursor-pointer hover:scale-105">
-              <Link to="/cart">
-              Cart {cartItems.length}
-              </Link>
-            </li>
+            <li className="hover:text-blue-600 transition duration-300 cursor-pointer hover:scale-105 flex items-center gap-2">
+            <Link to="/cart" className="flex items-center gap-2">
+              <span className="material-icons">shopping_cart</span>
+              <span className = "text-red-700">{cartItems.length}</span>
+            </Link>
+          </li>
             <button
               className="px-5 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition duration-300 font-serif"
               onClick={() => setBtnNameReact(btnNameReact === "Login" ? "Logout" : "Login")}

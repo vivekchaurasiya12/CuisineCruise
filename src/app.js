@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom";
+import { PersistGate } from "redux-persist/integration/react";
 //import About from "./components/about";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
@@ -12,9 +13,11 @@ import Error from "./components/Error";
 import ResturantMenu from "./components/ResturantMenu";
 import UserContext from "./utils/UserContext";
 import { Provider } from "react-redux"; // Provider is provided by react-redux && Provides integration between Redux and React.
-import appStore from "./utils/appStore";
+import appStore,{persistor} from "./utils/appStore";
 import Cart from "./components/Cart";
-
+import CheckoutForm from './components/CheckoutForm';
+import PaymentSuccess from './components/PaymentSuccess';
+import PaymentFailure from './components/PaymentFailure';
 
 //import Grocery from "./components/Grocery";
 
@@ -38,7 +41,8 @@ const AppLayout = () => {
         },[])
      
         return (
-                <Provider store = {appStore} >   
+                <Provider store = {appStore} > 
+                      <PersistGate loading={null} persistor={persistor}>  
                 {/* We wrapped all our app inside Provider &&  The <Provider> component makes the Redux store available throughout the app. */}
                 <UserContext.Provider value = {{loggedInUser : userName,setUserName}} >
                 <div className = "app overflow-x-hidden">
@@ -51,6 +55,7 @@ const AppLayout = () => {
                 <Footer/>
                 </div>
                 </UserContext.Provider>
+                </PersistGate>
                 </Provider>
         )
 }
@@ -85,7 +90,20 @@ const appRouter = createBrowserRouter([
                                 path:"/cart",
                                 element:<Cart/>
                                 
-                        }
+                        },
+                        {
+                                path: "/checkout",
+                                element: <CheckoutForm />,
+                        },
+                        {
+                                path: "/payment-success",
+                                element: <PaymentSuccess />,
+                        },
+                        {
+                                path: "/payment-failure",
+                                element: <PaymentFailure />,
+                        },
+                        
                 ],
                 errorElement: <Error/>
         }
