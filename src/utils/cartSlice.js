@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-
+import { toast } from "react-toastify";
 const cartSlice = createSlice({
     //A slice is a combination of reducers and actions in Redux Toolkit.
     //createSlice() combines state, reducers, and actions in one place

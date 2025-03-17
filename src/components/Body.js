@@ -4,6 +4,7 @@ import { useState, useEffect, useContext } from "react";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import LoginPage from "./LoginPage";
 
 
 const Body = () =>{
@@ -14,7 +15,9 @@ const [filteredResturant,setfilteredResturant] = useState(resList); // this is u
 
 const ResturantCardPromoted = withPromotedResturnat(ResturantCard);
 
- const {loggedInUser,setUserName} = useContext(UserContext);
+//vivek wala context 
+ const {loggedInUser,setUserName, showLogin, setShowLogin} = useContext(UserContext);
+ 
 
 // const fetchData = async () => {
 //   const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.99740&lng=79.00110&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
@@ -67,12 +70,18 @@ if(!onlineStatus){
   >
     Top Rated Restaurants
   </button>
-    <label>
+    {/* <label>
       Name : <input type="text" value = {loggedInUser} onChange={(e)=>setUserName(e.target.value)}
         className="px-4 py-1.5 w-80 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none text-lg"
         ></input>
-    </label>
+    </label> */}
 </div>
+
+
+{/* <div>
+  <LoginPage/>
+{showLogin?<LoginPage/>:<></>}
+</div> */}
 
 <div className="resturant-container flex flex-wrap justify-center gap-6 p-6">
   {filteredResturant.map((resturant) => ( 

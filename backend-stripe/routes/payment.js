@@ -1,11 +1,17 @@
 // backend/routes/payment.js
-const express = require('express');
-const router = express.Router();
-require('dotenv').config();
-const Stripe = require('stripe');
+import express from "express"
+import dotenv from "dotenv";
+import Stripe from 'stripe';
+
+
+dotenv.config();
+
+
+const paymentRouter = express.Router();
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-router.post('/create-payment-intent', async (req, res) => {
+paymentRouter.post('/create-payment-intent', async (req, res) => {
   try {
     const { amount } = req.body;
 
@@ -18,8 +24,11 @@ router.post('/create-payment-intent', async (req, res) => {
       clientSecret: paymentIntent.client_secret,
     });
   } catch (error) {
+    console.log("error", error);
     res.status(500).json({ message: error.message });
   }
 });
 
-module.exports = router;
+
+export default paymentRouter;
+

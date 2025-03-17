@@ -1,18 +1,18 @@
-//FOOD ORDERING APP
-//Header
-//  -LOGO
-//  -Nav items
-//Body
-//  -search
-//  -resturant coontainer
-//  -resturant cards
-//        -image
-//        -Name of restura,rating,cousine,delivery time
-//Footer
-//   -copyright
-//  -link
-//   -contact
-//   -address
+## FOOD ORDERING APP
+# Header
+- LOGO
+- Nav items
+# Body
+- search
+- resturant coontainer
+- resturant cards
+- image
+- Name of restura,rating,cousine,delivery time
+# Footer
+   - copyright
+   - link
+   - contact
+   - address
 
 
 two types of import/export

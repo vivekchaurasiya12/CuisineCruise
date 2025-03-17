@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 const MenuAccordion = ({ groupCard }) => {
  // console.log(groupCard);
    const { resId } = useParams(); // Get restaurant ID from the URL
-  // console.log("Restaurant id",resId);
+   //console.log("Restaurant id",resId);
     const dispatch  = useDispatch();//provided by react-redux
     const cartItems = useSelector((store) => store.cart.items);
 const currentRestaurantId = useSelector((store) => store.cart.restaurantId); // Get the restaurantId from the store
@@ -24,8 +24,7 @@ const handleAddItem = (item) => {
 
     
   return (
-    <>
-    <ToastContainer />
+   
     <Accordion title={groupCard.card.title} count={groupCard.card.itemCards.length}>
       <ul className="space-y-6">
         {groupCard.card.itemCards.map((item) => (
@@ -55,7 +54,7 @@ const handleAddItem = (item) => {
         ))}
       </ul>
     </Accordion>
-    </>
+    
   );
 };
 
